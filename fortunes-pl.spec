@@ -964,406 +964,406 @@ done;
 rm -rf $RPM_BUILD_ROOT
 
 %files -n fortune-mod-pl-pldhelp
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pldhelp
 %{_datadir}/games/fortunes/pldhelp.dat
 
 %files -n fortune-mod-pl-sapkowski
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sapkowski
 %{_datadir}/games/fortunes/sapkowski.dat
 
 %files -n fortune-mod-pl-seneka
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/seneka
 %{_datadir}/games/fortunes/seneka.dat
 
 %files -n fortune-mod-pl-10-przykazan-dewelopera-PLD
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/10-przykazan-dewelopera-PLD
 %{_datadir}/games/fortunes/10-przykazan-dewelopera-PLD.dat
 
 %files -n fortune-mod-pl-7thguard
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/7thguard
 %{_datadir}/games/fortunes/7thguard.dat
 
 %files -n fortune-mod-pl-sigpl
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sigpl
 %{_datadir}/games/fortunes/sigpl.dat
 
 %files -n fortune-mod-pl-debian.pl
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/debian.pl
 %{_datadir}/games/fortunes/debian.pl.dat
 
 %files -n fortune-mod-pl-adamg
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/adamg
 %{_datadir}/games/fortunes/adamg.dat
 
 %files -n fortune-mod-pl-advocacy
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/advocacy
 %{_datadir}/games/fortunes/advocacy.dat
 
 %files -n fortune-mod-pl-apcoh
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/apcoh
 %{_datadir}/games/fortunes/apcoh.dat
 
 %files -n fortune-mod-pl-argante
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/argante
 %{_datadir}/games/fortunes/argante.dat
 
 %files -n fortune-mod-pl-bajki
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/bajki
 %{_datadir}/games/fortunes/bajki.dat
 
 %files -n fortune-mod-pl-baseciq
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/baseciq
 %{_datadir}/games/fortunes/baseciq.dat
 
 %files -n fortune-mod-pl-blug
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/blug
 %{_datadir}/games/fortunes/blug.dat
 
 %files -n fortune-mod-pl-sigvirus
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sigvirus
 %{_datadir}/games/fortunes/sigvirus.dat
 
 %files -n fortune-mod-pl-bocian_gate
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/bocian_gate
 %{_datadir}/games/fortunes/bocian_gate.dat
 
 %files -n fortune-mod-pl-bok
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/bok
 %{_datadir}/games/fortunes/bok.dat
 
 %files -n fortune-mod-pl-cnp
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/cnp
 %{_datadir}/games/fortunes/cnp.dat
 
 %files -n fortune-mod-pl-cows
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/cows
 %{_datadir}/games/fortunes/cows.dat
 
 %files -n fortune-mod-pl-djurban
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/djurban
 %{_datadir}/games/fortunes/djurban.dat
 
 %files -n fortune-mod-pl-dowcipy
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy
 %{_datadir}/games/fortunes/dowcipy.dat
 
 %files -n fortune-mod-pl-slownik
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/slownik
 %{_datadir}/games/fortunes/slownik.dat
 
 %files -n fortune-mod-pl-dowcipy-feministyczne
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-feministyczne
 %{_datadir}/games/fortunes/dowcipy-feministyczne.dat
 
 %files -n fortune-mod-pl-slogany
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/slogany
 %{_datadir}/games/fortunes/slogany.dat
 
 %files -n fortune-mod-pl-dowcipy-lepper
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-lepper
 %{_datadir}/games/fortunes/dowcipy-lepper.dat
 
 %files -n fortune-mod-pl-spolem
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/spolem
 %{_datadir}/games/fortunes/spolem.dat
 
 %files -n fortune-mod-pl-dowcipy-naukowcy
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-naukowcy
 %{_datadir}/games/fortunes/dowcipy-naukowcy.dat
 
 %files -n fortune-mod-pl-sport
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sport
 %{_datadir}/games/fortunes/sport.dat
 
 %files -n fortune-mod-pl-dowcipy-niskopoziomowe
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-niskopoziomowe
 %{_datadir}/games/fortunes/dowcipy-niskopoziomowe.dat
 
 %files -n fortune-mod-pl-dwimc
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dwimc
 %{_datadir}/games/fortunes/dwimc.dat
 
 %files -n fortune-mod-pl-dzieci
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dzieci
 %{_datadir}/games/fortunes/dzieci.dat
 
 %files -n fortune-mod-pl-gra_polslowek
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/gra_polslowek
 %{_datadir}/games/fortunes/gra_polslowek.dat
 
 %files -n fortune-mod-pl-haiku
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/haiku
 %{_datadir}/games/fortunes/haiku.dat
 
 %files -n fortune-mod-pl-http
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/http
 %{_datadir}/games/fortunes/http.dat
 
 %files -n fortune-mod-pl-icpusers
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/icpusers
 %{_datadir}/games/fortunes/icpusers.dat
 
 %files -n fortune-mod-pl-pld
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pld
 %{_datadir}/games/fortunes/pld.dat
 
 %files -n fortune-mod-pl-ipv6.pl
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/ipv6.pl
 %{_datadir}/games/fortunes/ipv6.pl.dat
 
 %files -n fortune-mod-pl-jogger_pl
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/jogger_pl
 %{_datadir}/games/fortunes/jogger_pl.dat
 
 %files -n fortune-mod-pl-kernelcookies
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/kernelcookies
 %{_datadir}/games/fortunes/kernelcookies.dat
 
 %files -n fortune-mod-pl-kloczkish
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/kloczkish
 %{_datadir}/games/fortunes/kloczkish.dat
 
 %files -n fortune-mod-pl-komputery
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/komputery
 %{_datadir}/games/fortunes/komputery.dat
 
 %files -n fortune-mod-pl-konikbujany
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/konikbujany
 %{_datadir}/games/fortunes/konikbujany.dat
 
 %files -n fortune-mod-pl-koscielne
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/koscielne
 %{_datadir}/games/fortunes/koscielne.dat
 
 %files -n fortune-mod-pl-lcamtuf
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/lcamtuf
 %{_datadir}/games/fortunes/lcamtuf.dat
 
 %files -n fortune-mod-pl-life
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/life
 %{_datadir}/games/fortunes/life.dat
 
 %files -n fortune-mod-pl-linux
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/linux
 %{_datadir}/games/fortunes/linux.dat
 
 %files -n fortune-mod-pl-linuxfr
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/linuxfr
 %{_datadir}/games/fortunes/linuxfr.dat
 
 %files -n fortune-mod-pl-linuxpl
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/linuxpl
 %{_datadir}/games/fortunes/linuxpl.dat
 
 %files -n fortune-mod-pl-matura
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/matura
 %{_datadir}/games/fortunes/matura.dat
 
 %files -n fortune-mod-pl-microsoft
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/microsoft
 %{_datadir}/games/fortunes/microsoft.dat
 
 %files -n fortune-mod-pl-milosc
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/milosc
 %{_datadir}/games/fortunes/milosc.dat
 
 %files -n fortune-mod-pl-misc
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/misc
 %{_datadir}/games/fortunes/misc.dat
 
 %files -n fortune-mod-pl-mmazur
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/mmazur
 %{_datadir}/games/fortunes/mmazur.dat
 
 %files -n fortune-mod-pl-nauka
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/nauka
 %{_datadir}/games/fortunes/nauka.dat
 
 %files -n fortune-mod-pl-nowe
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/nowe
 %{_datadir}/games/fortunes/nowe.dat
 
 %files -n fortune-mod-pl-ospl
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/ospl
 %{_datadir}/games/fortunes/ospl.dat
 
 %files -n fortune-mod-pl-ospl-ad
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/ospl-ad
 %{_datadir}/games/fortunes/ospl-ad.dat
 
 %files -n fortune-mod-pl-pcol
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pcol
 %{_datadir}/games/fortunes/pcol.dat
 
 %files -n fortune-mod-pl-perl
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/perl
 %{_datadir}/games/fortunes/perl.dat
 
 %files -n fortune-mod-pl-pingwinaria
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pingwinaria
 %{_datadir}/games/fortunes/pingwinaria.dat
 
 %files -n fortune-mod-pl-pld-fork
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pld-fork
 %{_datadir}/games/fortunes/pld-fork.dat
 
 %files -n fortune-mod-pl-pld-offensive
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pld-offensive
 %{_datadir}/games/fortunes/pld-offensive.dat
 
 %files -n fortune-mod-pl-pldhelp-offensive
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pldhelp-offensive
 %{_datadir}/games/fortunes/pldhelp-offensive.dat
 
 %files -n fortune-mod-pl-plug
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/plug
 %{_datadir}/games/fortunes/plug.dat
 
 %files -n fortune-mod-pl-polish_manpages
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/polish_manpages
 %{_datadir}/games/fortunes/polish_manpages.dat
 
 %files -n fortune-mod-pl-pratchett
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pratchett
 %{_datadir}/games/fortunes/pratchett.dat
 
 %files -n fortune-mod-pl-puchatek
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/puchatek
 %{_datadir}/games/fortunes/puchatek.dat
 
 %files -n fortune-mod-pl-p³ug
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/p³ug
 %{_datadir}/games/fortunes/p³ug.dat
 
 %files -n fortune-mod-pl-p³ug-slc2001
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/p³ug-slc2001
 %{_datadir}/games/fortunes/p³ug-slc2001.dat
 
 %files -n fortune-mod-pl-radio_maryja
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/radio_maryja
 %{_datadir}/games/fortunes/radio_maryja.dat
 
 %files -n fortune-mod-pl-rywingate
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/rywingate
 %{_datadir}/games/fortunes/rywingate.dat
 
 %files -n fortune-mod-pl-sad
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sad
 %{_datadir}/games/fortunes/sad.dat
 
 %files -n fortune-mod-pl-stachura
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/stachura
 %{_datadir}/games/fortunes/stachura.dat
 
 %files -n fortune-mod-pl-teleturnieje
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/teleturnieje
 %{_datadir}/games/fortunes/teleturnieje.dat
 
 %files -n fortune-mod-pl-testnaosobowosc
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/testnaosobowosc
 %{_datadir}/games/fortunes/testnaosobowosc.dat
 
 %files -n fortune-mod-pl-wieza-pilot
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/wieza-pilot
 %{_datadir}/games/fortunes/wieza-pilot.dat
 
 %files -n fortune-mod-pl-x-avalon
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/x-avalon
 %{_datadir}/games/fortunes/x-avalon.dat
 
 %files -n fortune-mod-pl-zen
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/zen
 %{_datadir}/games/fortunes/zen.dat
 
 %files -n fortune-mod-pl-znaki_zodiaku
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/znaki_zodiaku
 %{_datadir}/games/fortunes/znaki_zodiaku.dat
 
 %files -n fortune-mod-pl-imiona
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/imiona
 %{_datadir}/games/fortunes/imiona.dat
 
 %files -n fortune-mod-pl-dowcipy-szowinistyczne
-%defattr(644,root,root,644)
+%defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-szowinistyczne
 %{_datadir}/games/fortunes/dowcipy-szowinistyczne.dat
