@@ -12,6 +12,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	6fcae1d17fd72d2b590e6159f3031b7a
 BuildRequires:	fortune-mod >= 1.0-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
