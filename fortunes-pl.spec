@@ -8,7 +8,7 @@ Summary:	Collection of Polish Fortunes
 Summary(pl):	Zbiór polskich fortunek
 Name:		fortunes-pl
 Version:	20040901
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
@@ -929,6 +929,21 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-pld
 + pld -- chodzi oczywi¶cie o wypowiedzi polityków z Porozumienia Ludowo -
   Demokratycznego ;-p
+
+%prep
+%setup -q
+
+%install
+rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
+for i in *;
+do
+ strfile $i;
+ install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
+done;
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %files -n fortune-mod-pl-wieza-pilot
 %defattr(644,root,root,644)
