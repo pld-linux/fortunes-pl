@@ -363,10 +363,10 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-koscielne
-+ koscielne -- o ko¶ciele 
++ koscielne -- o ko¶ciele
 
 %description -n fortune-mod-pl-koscielne -l pl
-+ koscielne -- o ko¶ciele 
++ koscielne -- o ko¶ciele
 
 %package -n fortune-mod-pl-lcamtuf
 Summary:	Fortune mod: lcamtuf
