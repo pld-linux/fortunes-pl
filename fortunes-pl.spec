@@ -7,12 +7,12 @@
 Summary:	Collection of Polish Fortunes
 Summary(pl):	Zbiór polskich fortunek
 Name:		fortunes-pl
-Version:	2.0_2003.04.26
+Version:	2.0_2003.06.19
 Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	6fcae1d17fd72d2b590e6159f3031b7a
+#Source0-md5:	cc2d7802cc65e21a8fb26e42a90d4f30
 BuildRequires:	fortune-mod >= 1.0-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
@@ -27,7 +27,7 @@ time they log in.
 Install fortune if you want a program which will bestow these random
 bits o' wit.
 
-This package constant colection of polish fortunes from cvs.pld.org.pl
+This package constant colection of polish fortunes from cvs.pld-linux.org
 
 %description -l pl
 Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
@@ -36,7 +36,19 @@ podczas logowania? Program fortune jest dla Ciebie. Administratorzy z
 poczuciem humoru mog± zainstalowaæ fortune-mod-on-login, by ka¿dy
 otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
 
-Ten pakiet zawiera kolekcjê polskich fortunek z cvs.pld.org.pl
+Ten pakiet zawiera kolekcjê polskich fortunek z cvs.pld-linux.org
+
+%package -n fortune-mod-pl-adamg
+Summary:	Fortune mod: adamg
+Summary(pl):	Zestaw fortunek: adamg
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-adamg
++ adamg -- m±dro¶ci Adama Go³êbiowskiego
+
+%description -n fortune-mod-pl-adamg -l pl
++ adamg -- m±dro¶ci Adama Go³êbiowskiego
 
 %package -n fortune-mod-pl-advocacy
 Summary:	Fortune mod: advocacy
@@ -134,6 +146,18 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-bok -l pl
 + bok -- teksty z ró¿nych Biur Obs³ugi Klienta :)
 
+%package -n fortune-mod-pl-cows
+Summary:	Fortune mod: cows
+Summary(pl):	Zestaw fortunek: cows
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-cows
++ cows -- wariacje na temat cowsay
+
+%description -n fortune-mod-pl-cows -l pl
++ cows -- wariacje na temat cowsay
+
 %package -n fortune-mod-pl-cnp
 Summary:	Fortune mod: cnp
 Summary(pl):	Zestaw fortunek: cnp
@@ -146,6 +170,18 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-cnp -l pl
 + cnp -- cytaty z filmu "Ch³opaki nie p³acz±"
 
+%package -n fortune-mod-pl-djurban
+Summary:	Fortune mod: djurban
+Summary(pl):	Zestaw fortunek: djurban
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-djurban
++ djurban -- m±dro¶ci djurbana
+
+%description -n fortune-mod-pl-djurban -l pl
++ djurban -- m±dro¶ci djurbana
+
 %package -n fortune-mod-pl-dowcipy
 Summary:	Fortune mod: dowcipy
 Summary(pl):	Zestaw fortunek: dowcipy
@@ -157,6 +193,18 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-dowcipy -l pl
 + dowcipy -- tego chyba nie trzeba opisywaæ
+
+%package -n fortune-mod-pl-dowcipy-feministyczne
+Summary:	Fortune mod: dowcipy-feministyczne
+Summary(pl):	Zestaw fortunek: dowcipy-feministyczne
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-dowcipy-feministyczne
++ dowcipy-feministyczne -- sam feminizm
+
+%description -n fortune-mod-pl-dowcipy-feministyczne -l pl
++ dowcipy-feministyczne -- sam feminizm
 
 %package -n fortune-mod-pl-dowcipy-niskopoziomowe
 Summary:	Fortune mod: dowcipy-niskopoziomowe
@@ -183,6 +231,18 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-dwimc -l pl
 + dwimc -- cycaty w t³umaczeniu polskim (Yagoda) z filmu "Stary, gdzie jest
   moja bryka ?!"
+
+%package -n fortune-mod-pl-dzieci
+Summary:	Fortune mod: dzieci
+Summary(pl):	Zestaw fortunek: dzieci
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-dzieci
++ dzieci -- ... w oczach dzieci
+
+%description -n fortune-mod-pl-dzieci -l pl
++ dzieci -- ... w oczach dzieci
 
 %package -n fortune-mod-pl-gra_polslowek
 Summary:	Fortune mod: gra_polslowek
@@ -296,6 +356,18 @@ Requires:	fortune-mod
 + konikbujany -- wypowiedzi cz³owieka przedstawiaj±cego siê jako konikbujany
   (miêdzy innymi), bardzo egzotyczna postaæ; z anathema.eu.org
 
+%package -n fortune-mod-pl-koscielne
+Summary:	Fortune mod: koscielne
+Summary(pl):	Zestaw fortunek: koscielne
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-koscielne
++ koscielne -- o ko¶ciele 
+
+%description -n fortune-mod-pl-koscielne -l pl
++ koscielne -- o ko¶ciele 
+
 %package -n fortune-mod-pl-lcamtuf
 Summary:	Fortune mod: lcamtuf
 Summary(pl):	Zestaw fortunek: lcamtuf
@@ -347,6 +419,18 @@ Requires:	fortune-mod
 + linuxpl -- m±dro¶ci z kana³u #linuxpl, podes³a³ Mateusz Golicz
   <mtg@elsat.net.pl>; nastêpnie dodano to, co zebra³ Marcoos
   <fortune@pertus.com.pl>
+
+%package -n fortune-mod-pl-matura
+Summary:	Fortune mod: matura
+Summary(pl):	Zestaw fortunek: matura
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-matura
++ matura -- pewniaki na maturê oraz teksty z matury ;)
+
+%description -n fortune-mod-pl-matura -l pl
++ matura -- pewniaki na maturê oraz teksty z matury ;)
 
 %package -n fortune-mod-pl-microsoft
 Summary:	Fortune mod: microsoft
@@ -486,17 +570,31 @@ Requires:	fortune-mod
 + pld -- chodzi oczywi¶cie o wypowiedzi polityków z Porozumienia Ludowo -
   Demokratycznego ;-p
 
-%package -n fortune-mod-pl-pldhelp
-Summary:	Fortune mod: pldhelp
-Summary(pl):	Zestaw fortunek: pldhelp
+%package -n fortune-mod-pl-pld-offensive
+Summary:	Fortune mod: pld-offensive
+Summary(pl):	Zestaw fortunek: pld-offensive
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pldhelp
-+ pldhelp -- kana³ #pldhelp && support
+%description -n fortune-mod-pl-pld-offensive
++ pld-offensive -- chodzi oczywi¶cie o wypowiedzi polityków z Porozumienia
+  Ludowo - Demokratycznego ;-p (nieocenzurowane)
 
-%description -n fortune-mod-pl-pldhelp -l pl
-+ pldhelp -- kana³ #pldhelp && support
+%description -n fortune-mod-pl-pld-offensive -l pl
++ pld-offensive -- chodzi oczywi¶cie o wypowiedzi polityków z Porozumienia
+  Ludowo - Demokratycznego ;-p (nieocenzurowane)
+
+%package -n fortune-mod-pl-pldhelp-offensive
+Summary:	Fortune mod: pldhelp-offensive
+Summary(pl):	Zestaw fortunek: pldhelp-offensive
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-pldhelp-offensive
++ pldhelp-offensive -- kana³ #pldhelp && support (nieocenzurowane)
+
+%description -n fortune-mod-pl-pldhelp-offensive -l pl
++ pldhelp-offensive -- kana³ #pldhelp && support (nieocenzurowane)
 
 %package -n fortune-mod-pl-plug
 Summary:	Fortune mod: plug
@@ -755,7 +853,7 @@ Requires:	fortune-mod
 
 %install
 rm -rf $RPM_BUILD_ROOT
-COOKIES="advocacy apcoh argante bajki baseciq blug bok cnp dowcipy dowcipy-niskopoziomowe dwimc gra_polslowek haiku http icpusers imiona_facetow ipv6.pl kloczkish komputery konikbujany lcamtuf linux linuxfr linuxpl microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pldhelp plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sad sapkowski seneka sigpl sigvirus slogany spolem sport stachura radio_maryja rywingate wieza-pilot zen znaki_zodiaku"
+COOKIES="adamg advocacy apcoh argante bajki baseciq blug bok cows cnp djurban dowcipy dowcipy-feministyczne dowcipy-niskopoziomowe dwimc dzieci gra_polslowek haiku http icpusers imiona_facetow ipv6.pl kloczkish komputery konikbujany koscielne lcamtuf linux linuxfr linuxpl matura microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pld-offensive pldhelp-offensive plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sad sapkowski seneka sigpl sigvirus slogany spolem sport stachura radio_maryja rywingate wieza-pilot zen znaki_zodiaku"
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 for i in $COOKIES;
 do
@@ -765,6 +863,11 @@ done;
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%files -n fortune-mod-pl-adamg
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/adamg
+%{_datadir}/games/fortunes/adamg.dat
 
 %files -n fortune-mod-pl-advocacy
 %defattr(644,root,root,644)
@@ -801,15 +904,30 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/bok
 %{_datadir}/games/fortunes/bok.dat
 
+%files -n fortune-mod-pl-cows
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/cows
+%{_datadir}/games/fortunes/cows.dat
+
 %files -n fortune-mod-pl-cnp
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/cnp
 %{_datadir}/games/fortunes/cnp.dat
 
+%files -n fortune-mod-pl-djurban
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/djurban
+%{_datadir}/games/fortunes/djurban.dat
+
 %files -n fortune-mod-pl-dowcipy
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/dowcipy
 %{_datadir}/games/fortunes/dowcipy.dat
+
+%files -n fortune-mod-pl-dowcipy-feministyczne
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/dowcipy-feministyczne
+%{_datadir}/games/fortunes/dowcipy-feministyczne.dat
 
 %files -n fortune-mod-pl-dowcipy-niskopoziomowe
 %defattr(644,root,root,644)
@@ -820,6 +938,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/dwimc
 %{_datadir}/games/fortunes/dwimc.dat
+
+%files -n fortune-mod-pl-dzieci
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/dzieci
+%{_datadir}/games/fortunes/dzieci.dat
 
 %files -n fortune-mod-pl-gra_polslowek
 %defattr(644,root,root,644)
@@ -866,6 +989,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/konikbujany
 %{_datadir}/games/fortunes/konikbujany.dat
 
+%files -n fortune-mod-pl-koscielne
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/koscielne
+%{_datadir}/games/fortunes/koscielne.dat
+
 %files -n fortune-mod-pl-lcamtuf
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/lcamtuf
@@ -885,6 +1013,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/linuxpl
 %{_datadir}/games/fortunes/linuxpl.dat
+
+%files -n fortune-mod-pl-matura
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/matura
+%{_datadir}/games/fortunes/matura.dat
 
 %files -n fortune-mod-pl-microsoft
 %defattr(644,root,root,644)
@@ -941,10 +1074,15 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/pld
 %{_datadir}/games/fortunes/pld.dat
 
-%files -n fortune-mod-pl-pldhelp
+%files -n fortune-mod-pl-pld-offensive
 %defattr(644,root,root,644)
-%{_datadir}/games/fortunes/pldhelp
-%{_datadir}/games/fortunes/pldhelp.dat
+%{_datadir}/games/fortunes/pld-offensive
+%{_datadir}/games/fortunes/pld-offensive.dat
+
+%files -n fortune-mod-pl-pldhelp-offensive
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/pldhelp-offensive
+%{_datadir}/games/fortunes/pldhelp-offensive.dat
 
 %files -n fortune-mod-pl-plug
 %defattr(644,root,root,644)
