@@ -40,7 +40,7 @@ tar zxf %{SOURCE0}
 %build
 %install
 rm -rf $RPM_BUILD_ROOT
-COOKIES="argante linux milosc ospl-ad puchatek stachura haiku linuxfr misc pcol seneka komputery linuxpl nauka perl sigpl konikbujany nowe pld pld-lists sigvirus advocacy lcamtuf microsoft ospl plug slogany"
+COOKIES="argante linux milosc ospl-ad puchatek stachura haiku linuxfr misc pcol seneka komputery linuxpl nauka perl sigpl konikbujany nowe pld sigvirus advocacy lcamtuf microsoft ospl plug slogany"
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 for i in $COOKIES;
 do
