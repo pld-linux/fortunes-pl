@@ -7,7 +7,7 @@
 Summary:	Collection of Polish Fortunes
 Summary(pl):	Zbiór polskich fortunek
 Name:		fortunes-pl
-Version:	2.0_2002.09.12
+Version:	2.0_2003.04.01
 Release:	1
 License:	GPL
 Group:		Applications/Games
@@ -83,6 +83,32 @@ Requires:	fortune-mod
 + argante -- cytaty z listy mailingowej projektu argante (www.argante.org)
   i kana³u #argnate
 
+%package -n fortune-mod-pl-bajki
+Summary:	Fortune mod: bajki
+Summary(pl):	Zestaw fortunek: bajki
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-bajki
++ bajki -- bajki o nale¶niku, powid³ach, kapu¶cie, w±tróbce, pantofelku...
+
+%description -n fortune-mod-pl-bajki -l pl
++ bajki -- bajki o nale¶niku, powid³ach, kapu¶cie, w±tróbce, pantofelku...
+
+%package -n fortune-mod-pl-baseciq
+Summary:	Fortune mod: baseciq
+Summary(pl):	Zestaw fortunek: baseciq
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-baseciq
++ baseciq -- <@Baseciq> có¿, wiem ¿e jak co¶ czasami jebnê jak±¶ bzdurê
+  to pó³ polski ma ubaw.
+
+%description -n fortune-mod-pl-baseciq -l pl
++ baseciq -- <@Baseciq> có¿, wiem ¿e jak co¶ czasami jebnê jak±¶ bzdurê
+  to pó³ polski ma ubaw.
+
 %package -n fortune-mod-pl-blug
 Summary:	Fortune mod: blug
 Summary(pl):	Zestaw fortunek: blug
@@ -95,6 +121,18 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-blug -l pl
 + blug -- wypowiedzi cz³onków Bydgoszcz Linux Users Group wychwycone z #blug
 
+%package -n fortune-mod-pl-bok
+Summary:	Fortune mod: bok
+Summary(pl):	Zestaw fortunek: bok
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-bok
++ bok -- teksty z ró¿nych Biur Obs³ugi Klienta :)
+
+%description -n fortune-mod-pl-bok -l pl
++ bok -- teksty z ró¿nych Biur Obs³ugi Klienta :)
+
 %package -n fortune-mod-pl-cnp
 Summary:	Fortune mod: cnp
 Summary(pl):	Zestaw fortunek: cnp
@@ -106,6 +144,58 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-cnp -l pl
 + cnp -- cytaty z filmu "Ch³opaki nie p³acz±"
+
+%package -n fortune-mod-pl-dowcipy
+Summary:	Fortune mod: dowcipy
+Summary(pl):	Zestaw fortunek: dowcipy
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-dowcipy
++ dowcipy -- tego chyba nie trzeba opisywaæ
+
+%description -n fortune-mod-pl-dowcipy -l pl
++ dowcipy -- tego chyba nie trzeba opisywaæ
+
+%package -n fortune-mod-pl-dowcipy-niskopoziomowe
+Summary:	Fortune mod: dowcipy-niskopoziomowe
+Summary(pl):	Zestaw fortunek: dowcipy-niskopoziomowe
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-dowcipy-niskopoziomowe
++ dowcipy-niskopoziomowe -- tego chyba równie¿! :)
+
+%description -n fortune-mod-pl-dowcipy-niskopoziomowe -l pl
++ dowcipy-niskopoziomowe -- tego chyba równie¿! :)
+
+%package -n fortune-mod-pl-dwimc
+Summary:	Fortune mod: dwimc
+Summary(pl):	Zestaw fortunek: dwimc
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-dwimc
++ dwimc -- cycaty w t³umaczeniu polskim (Yagoda) z filmu "Stary, gdzie jest
+  moja bryka ?!"
+
+%description -n fortune-mod-pl-dwimc -l pl
++ dwimc -- cycaty w t³umaczeniu polskim (Yagoda) z filmu "Stary, gdzie jest
+  moja bryka ?!"
+
+%package -n fortune-mod-pl-gra_polslowek
+Summary:	Fortune mod: gra_polslowek
+Summary(pl):	Zestaw fortunek: gra_polslowek
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-gra_polslowek
++ gra_polslowek -- gra polega na zamianie miejscami DU¯YCH liter w krótkich
+  zdaniach (na przyk³ad: gra pó³s³ówek -> sra pó³g³ówek)
+
+%description -n fortune-mod-pl-gra_polslowek -l pl
++ gra_polslowek -- gra polega na zamianie miejscami DU¯YCH liter w krótkich
+  zdaniach (na przyk³ad: gra pó³s³ówek -> sra pó³g³ówek)
 
 %package -n fortune-mod-pl-haiku
 Summary:	Fortune mod: haiku
@@ -143,6 +233,18 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-icpusers -l pl
 + icpusers -- niech siê przyzna, kto doda³
 
+%package -n fortune-mod-pl-imiona_facetow
+Summary:	Fortune mod: imiona_facetow
+Summary(pl):	Zestaw fortunek: imiona_facetow
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-imiona_facetow
++ imiona_facetow -- czego mo¿na siê spodziewaæ o facecie o danym imieniu
+
+%description -n fortune-mod-pl-imiona_facetow -l pl
++ imiona_facetow -- czego mo¿na siê spodziewaæ o facecie o danym imieniu
+
 %package -n fortune-mod-pl-ipv6.pl
 Summary:	Fortune mod: ipv6.pl
 Summary(pl):	Zestaw fortunek: ipv6.pl
@@ -150,10 +252,10 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-ipv6.pl
-+ ipv6.pl -- j/w.
++ ipv6.pl -- fortunki z kana³u #ipv6.pl
 
 %description -n fortune-mod-pl-ipv6.pl -l pl
-+ ipv6.pl -- j/w.
++ ipv6.pl -- fortunki z kana³u #ipv6.pl
 
 %package -n fortune-mod-pl-kloczkish
 Summary:	Fortune mod: kloczkish
@@ -236,12 +338,12 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-linuxpl
-+ linuxpl -- m±dro¶ci z kana³u #linuxpl, podes³a³ Mateusz Golicz 
++ linuxpl -- m±dro¶ci z kana³u #linuxpl, podes³a³ Mateusz Golicz
   <mtg@elsat.net.pl>; nastêpnie dodano to, co zebra³ Marcoos
   <fortune@pertus.com.pl>
 
 %description -n fortune-mod-pl-linuxpl -l pl
-+ linuxpl -- m±dro¶ci z kana³u #linuxpl, podes³a³ Mateusz Golicz 
++ linuxpl -- m±dro¶ci z kana³u #linuxpl, podes³a³ Mateusz Golicz
   <mtg@elsat.net.pl>; nastêpnie dodano to, co zebra³ Marcoos
   <fortune@pertus.com.pl>
 
@@ -312,12 +414,12 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-ospl
-+ ospl -- pewnego dnia grupka ludzi stwierdzi³a, ¿e tak dalej byæ nie mo¿e ;-)
-  a przy okazji powsta³a gar¶æ fortunek
++ ospl -- pewnego dnia grupka ludzi stwierdzi³a, ¿e tak dalej byæ nie
+  mo¿e ;-) a przy okazji powsta³a gar¶æ fortunek
 
 %description -n fortune-mod-pl-ospl -l pl
-+ ospl -- pewnego dnia grupka ludzi stwierdzi³a, ¿e tak dalej byæ nie mo¿e ;-)
-  a przy okazji powsta³a gar¶æ fortunek
++ ospl -- pewnego dnia grupka ludzi stwierdzi³a, ¿e tak dalej byæ nie
+  mo¿e ;-) a przy okazji powsta³a gar¶æ fortunek
 
 %package -n fortune-mod-pl-ospl-ad
 Summary:	Fortune mod: ospl-ad
@@ -326,10 +428,10 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-ospl-ad
-+ ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i sygnaturek :-)  
++ ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i sygnaturek :-)
 
 %description -n fortune-mod-pl-ospl-ad -l pl
-+ ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i sygnaturek :-)  
++ ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i sygnaturek :-)
 
 %package -n fortune-mod-pl-pcol
 Summary:	Fortune mod: pcol
@@ -390,10 +492,10 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-pldhelp
-+ pldhelp -- kana³ #pldhelp (?)
++ pldhelp -- kana³ #pldhelp && support
 
 %description -n fortune-mod-pl-pldhelp -l pl
-+ pldhelp -- kana³ #pldhelp (?)
++ pldhelp -- kana³ #pldhelp && support
 
 %package -n fortune-mod-pl-plug
 Summary:	Fortune mod: plug
@@ -402,12 +504,14 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-plug
-+ plug -- m±dro¶ci z kana³u #plug, podes³a³ Mateusz Golicz <mtg@elsat.net.pl>,
-  oraz ogroooomna aktualizacja dziêki Tygrysowi (tygrys@tangerine.dream.art.pl).
++ plug -- m±dro¶ci z kana³u #plug, podes³a³ Mateusz Golicz
+  <mtg@elsat.net.pl> oraz ogroooomna aktualizacja dziêki
+  Tygrysowi (tygrys@tangerine.dream.art.pl).
 
 %description -n fortune-mod-pl-plug -l pl
-+ plug -- m±dro¶ci z kana³u #plug, podes³a³ Mateusz Golicz <mtg@elsat.net.pl>,
-  oraz ogroooomna aktualizacja dziêki Tygrysowi (tygrys@tangerine.dream.art.pl).
++ plug -- m±dro¶ci z kana³u #plug, podes³a³ Mateusz Golicz
+  <mtg@elsat.net.pl> oraz ogroooomna aktualizacja dziêki
+  Tygrysowi (tygrys@tangerine.dream.art.pl).
 
 %package -n fortune-mod-pl-polish_manpages
 Summary:	Fortune mod: polish_manpages
@@ -452,10 +556,10 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-p³ug
-+ p³ug -- kana³ #p³ug: Polish(ed) £y¿ka Users Group 
++ p³ug -- kana³ #p³ug: Polish(ed) £y¿ka Users Group
 
 %description -n fortune-mod-pl-p³ug -l pl
-+ p³ug -- kana³ #p³ug: Polish(ed) £y¿ka Users Group 
++ p³ug -- kana³ #p³ug: Polish(ed) £y¿ka Users Group
 
 %package -n fortune-mod-pl-p³ug-slc2001
 Summary:	Fortune mod: p³ug-slc2001
@@ -468,6 +572,22 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-p³ug-slc2001 -l pl
 + p³ug-slc2001 -- Polish(ed) £y¿ka Users Group: Summer Libation Camp 2001
+
+%package -n fortune-mod-pl-sad
+Summary:	Fortune mod: sad
+Summary(pl):	Zestaw fortunek: sad
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-sad
++ sad -- Cytaty z amerykañskiej ksi±¿ki 'Disorder in the Court'. To s±
+  autentyczne zdania, które pad³y w s±dach - s³owo w s³owo.
+  Nagrane i opublikowane przez reporterów s±dowych.
+
+%description -n fortune-mod-pl-sad -l pl
++ sad -- Cytaty z amerykañskiej ksi±¿ki 'Disorder in the Court'. To s±
+  autentyczne zdania, które pad³y w s±dach - s³owo w s³owo.
+  Nagrane i opublikowane przez reporterów s±dowych.
 
 %package -n fortune-mod-pl-sapkowski
 Summary:	Fortune mod: sapkowski
@@ -500,10 +620,12 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-sigpl
-+ sigpl -- polskie sygnaturki ze strony £ukasza Kowalczyka (www.hoohoo.prv.pl)
++ sigpl -- polskie sygnaturki ze strony £ukasza Kowalczyka
+  (www.hoohoo.prv.pl)
 
 %description -n fortune-mod-pl-sigpl -l pl
-+ sigpl -- polskie sygnaturki ze strony £ukasza Kowalczyka (www.hoohoo.prv.pl)
++ sigpl -- polskie sygnaturki ze strony £ukasza Kowalczyka
+  (www.hoohoo.prv.pl)
 
 %package -n fortune-mod-pl-sigvirus
 Summary:	Fortune mod: sigvirus
@@ -531,6 +653,18 @@ Requires:	fortune-mod
 + slogany -- ¼ród³o jest podane w sygnaturkach; chyba lepiej je przenie¶æ
   tutaj, podes³a³ Marcin Rzewucki <marcinr@linuxpl.org>
 
+%package -n fortune-mod-pl-spolem
+Summary:	Fortune mod: spolem
+Summary(pl):	Zestaw fortunek: spolem
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-spolem
+Fortune mod: spolem
+
+%description -n fortune-mod-pl-spolem -l pl
+Zestaw fortunek: spolem
+
 %package -n fortune-mod-pl-sport
 Summary:	Fortune mod: sport
 Summary(pl):	Zestaw fortunek: sport
@@ -555,18 +689,6 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-stachura -l pl
 + stachura -- kilka wierszy
 
-%package -n fortune-mod-pl-dowcipy
-Summary:	Fortune mod: dowcipy
-Summary(pl):	Zestaw fortunek: dowcipy
-Group:		Applications/Games
-Requires:	fortune-mod
-
-%description -n fortune-mod-pl-dowcipy
-Fortune mod: dowcipy
-
-%description -n fortune-mod-pl-dowcipy -l pl
-Zestaw fortunek: dowcipy
-
 %package -n fortune-mod-pl-radio_maryja
 Summary:	Fortune mod: radio_maryja
 Summary(pl):	Zestaw fortunek: radio_maryja
@@ -578,6 +700,18 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-radio_maryja -l pl
 + radio_maryja -- apolityczne radio maryja
+
+%package -n fortune-mod-pl-wieza-pilot
+Summary:	Fortune mod: wieza-pilot
+Summary(pl):	Zestaw fortunek: wieza-pilot
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-wieza-pilot
++ wieza-pilot -- rozmowy wie¿a-pilot
+
+%description -n fortune-mod-pl-wieza-pilot -l pl
++ wieza-pilot -- rozmowy wie¿a-pilot
 
 %package -n fortune-mod-pl-zen
 Summary:	Fortune mod: zen
@@ -591,12 +725,24 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-zen -l pl
 + zen -- buddyzm zen
 
+%package -n fortune-mod-pl-znaki_zodiaku
+Summary:	Fortune mod: znaki_zodiaku
+Summary(pl):	Zestaw fortunek: znaki_zodiaku
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-znaki_zodiaku
++ znaki_zodiaku -- horoskop na ka¿d± okazjê autorstwa Stanis³awa Tyma
+
+%description -n fortune-mod-pl-znaki_zodiaku -l pl
++ znaki_zodiaku -- horoskop na ka¿d± okazjê autorstwa Stanis³awa Tyma
+
 %prep
 %setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
-COOKIES="advocacy apcoh argante blug cnp haiku http icpusers ipv6.pl kloczkish komputery konikbujany lcamtuf linux linuxfr linuxpl microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pldhelp plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sapkowski seneka sigpl sigvirus slogany sport stachura dowcipy radio_maryja zen"
+COOKIES="advocacy apcoh argante bajki baseciq blug bok cnp dowcipy dowcipy-niskopoziomowe dwimc gra_polslowek haiku http icpusers imiona_facetow ipv6.pl kloczkish komputery konikbujany lcamtuf linux linuxfr linuxpl microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pldhelp plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sad sapkowski seneka sigpl sigvirus slogany spolem sport stachura radio_maryja wieza-pilot zen znaki_zodiaku"
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 for i in $COOKIES;
 do
@@ -622,15 +768,50 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/argante
 %{_datadir}/games/fortunes/argante.dat
 
+%files -n fortune-mod-pl-bajki
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/bajki
+%{_datadir}/games/fortunes/bajki.dat
+
+%files -n fortune-mod-pl-baseciq
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/baseciq
+%{_datadir}/games/fortunes/baseciq.dat
+
 %files -n fortune-mod-pl-blug
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/blug
 %{_datadir}/games/fortunes/blug.dat
 
+%files -n fortune-mod-pl-bok
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/bok
+%{_datadir}/games/fortunes/bok.dat
+
 %files -n fortune-mod-pl-cnp
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/cnp
 %{_datadir}/games/fortunes/cnp.dat
+
+%files -n fortune-mod-pl-dowcipy
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/dowcipy
+%{_datadir}/games/fortunes/dowcipy.dat
+
+%files -n fortune-mod-pl-dowcipy-niskopoziomowe
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/dowcipy-niskopoziomowe
+%{_datadir}/games/fortunes/dowcipy-niskopoziomowe.dat
+
+%files -n fortune-mod-pl-dwimc
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/dwimc
+%{_datadir}/games/fortunes/dwimc.dat
+
+%files -n fortune-mod-pl-gra_polslowek
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/gra_polslowek
+%{_datadir}/games/fortunes/gra_polslowek.dat
 
 %files -n fortune-mod-pl-haiku
 %defattr(644,root,root,644)
@@ -646,6 +827,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/icpusers
 %{_datadir}/games/fortunes/icpusers.dat
+
+%files -n fortune-mod-pl-imiona_facetow
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/imiona_facetow
+%{_datadir}/games/fortunes/imiona_facetow.dat
 
 %files -n fortune-mod-pl-ipv6.pl
 %defattr(644,root,root,644)
@@ -777,6 +963,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/p³ug-slc2001
 %{_datadir}/games/fortunes/p³ug-slc2001.dat
 
+%files -n fortune-mod-pl-sad
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/sad
+%{_datadir}/games/fortunes/sad.dat
+
 %files -n fortune-mod-pl-sapkowski
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/sapkowski
@@ -802,6 +993,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/slogany
 %{_datadir}/games/fortunes/slogany.dat
 
+%files -n fortune-mod-pl-spolem
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/spolem
+%{_datadir}/games/fortunes/spolem.dat
+
 %files -n fortune-mod-pl-sport
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/sport
@@ -812,17 +1008,22 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/stachura
 %{_datadir}/games/fortunes/stachura.dat
 
-%files -n fortune-mod-pl-dowcipy
-%defattr(644,root,root,644)
-%{_datadir}/games/fortunes/dowcipy
-%{_datadir}/games/fortunes/dowcipy.dat
-
 %files -n fortune-mod-pl-radio_maryja
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/radio_maryja
 %{_datadir}/games/fortunes/radio_maryja.dat
 
+%files -n fortune-mod-pl-wieza-pilot
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/wieza-pilot
+%{_datadir}/games/fortunes/wieza-pilot.dat
+
 %files -n fortune-mod-pl-zen
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/zen
 %{_datadir}/games/fortunes/zen.dat
+
+%files -n fortune-mod-pl-znaki_zodiaku
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/znaki_zodiaku
+%{_datadir}/games/fortunes/znaki_zodiaku.dat
