@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	%{name}.tar.gz
-BuildRequires:	fortune-mod
+BuildRequires:	fortune-mod >= 1.0-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -40,7 +40,7 @@ COOKIES="argante linux milosc ospl-ad puchatek stachura haiku linuxfr misc pcol 
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 for i in $COOKIES;
 do
- /usr/sbin/strfile $i;
+ strfile $i;
  install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
 done;
 
