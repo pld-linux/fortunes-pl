@@ -7,12 +7,11 @@
 Summary:	Collection of Polish Fortunes
 Summary(pl):	Zbiór polskich fortunek
 Name:		fortunes-pl
-Version:	2.0_2003.08.31
+Version:	2.0_2003.11.24
 Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
-#Source0-md5:	20ef4d91597ed0f9dd5eb60079be01d0
 BuildRequires:	fortune-mod >= 1.0-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
@@ -90,11 +89,11 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-argante
 + argante -- cytaty z listy mailingowej projektu argante (www.argante.org)
-  i kana³u #argnate
+  i kana³u #argante
 
 %description -n fortune-mod-pl-argante -l pl
 + argante -- cytaty z listy mailingowej projektu argante (www.argante.org)
-  i kana³u #argnate
+  i kana³u #argante
 
 %package -n fortune-mod-pl-bajki
 Summary:	Fortune mod: bajki
@@ -141,10 +140,12 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-bok
-+ bok -- teksty z ró¿nych Biur Obs³ugi Klienta :)
++ bok -- teksty z ró¿nych Biur Obs³ugi Klienta, sklepów komputerowych itp,
+         generalnie PMKAK (Problem Miêdzy Krzes³em A Komputerem) :)
 
 %description -n fortune-mod-pl-bok -l pl
-+ bok -- teksty z ró¿nych Biur Obs³ugi Klienta :)
++ bok -- teksty z ró¿nych Biur Obs³ugi Klienta, sklepów komputerowych itp,
+         generalnie PMKAK (Problem Miêdzy Krzes³em A Komputerem) :)
 
 %package -n fortune-mod-pl-cows
 Summary:	Fortune mod: cows
@@ -363,10 +364,10 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-koscielne
-+ koscielne -- o ko¶ciele
++ koscielne -- o ko¶ciele 
 
 %description -n fortune-mod-pl-koscielne -l pl
-+ koscielne -- o ko¶ciele
++ koscielne -- o ko¶ciele 
 
 %package -n fortune-mod-pl-lcamtuf
 Summary:	Fortune mod: lcamtuf
@@ -855,9 +856,10 @@ Requires:	fortune-mod
 rm -rf $RPM_BUILD_ROOT
 COOKIES="adamg advocacy apcoh argante bajki baseciq blug bok cows cnp djurban dowcipy dowcipy-feministyczne dowcipy-niskopoziomowe dwimc dzieci gra_polslowek haiku http icpusers imiona_facetow ipv6.pl kloczkish komputery konikbujany koscielne lcamtuf linux linuxfr linuxpl matura microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pld-offensive pldhelp-offensive plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sad sapkowski seneka sigpl sigvirus slogany spolem sport stachura radio_maryja rywingate wieza-pilot zen znaki_zodiaku"
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-for i in $COOKIES; do
-	strfile $i;
-	install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
+for i in $COOKIES;
+do
+ strfile $i;
+ install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
 done;
 
 %clean
