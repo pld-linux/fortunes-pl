@@ -7,7 +7,7 @@
 Summary:	Collection of Polish Fortunes
 Summary(pl):	Zbiór polskich fortunek
 Name:		fortunes-pl
-Version:	2.0_2003.04.01
+Version:	2.0_2003.04.26
 Release:	1
 License:	GPL
 Group:		Applications/Games
@@ -701,6 +701,18 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-radio_maryja -l pl
 + radio_maryja -- apolityczne radio maryja
 
+%package -n fortune-mod-pl-rywingate
+Summary:	Fortune mod: rywingate
+Summary(pl):	Zestaw fortunek: rywingate
+Group:		Applications/Games
+Requires:	fortune-mod
+
+%description -n fortune-mod-pl-rywingate
++ rywingate -- trochê tekstów od komisji ¶ledczej
+
+%description -n fortune-mod-pl-rywingate -l pl
++ rywingate -- trochê tekstów od komisji ¶ledczej
+
 %package -n fortune-mod-pl-wieza-pilot
 Summary:	Fortune mod: wieza-pilot
 Summary(pl):	Zestaw fortunek: wieza-pilot
@@ -742,7 +754,7 @@ Requires:	fortune-mod
 
 %install
 rm -rf $RPM_BUILD_ROOT
-COOKIES="advocacy apcoh argante bajki baseciq blug bok cnp dowcipy dowcipy-niskopoziomowe dwimc gra_polslowek haiku http icpusers imiona_facetow ipv6.pl kloczkish komputery konikbujany lcamtuf linux linuxfr linuxpl microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pldhelp plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sad sapkowski seneka sigpl sigvirus slogany spolem sport stachura radio_maryja wieza-pilot zen znaki_zodiaku"
+COOKIES="advocacy apcoh argante bajki baseciq blug bok cnp dowcipy dowcipy-niskopoziomowe dwimc gra_polslowek haiku http icpusers imiona_facetow ipv6.pl kloczkish komputery konikbujany lcamtuf linux linuxfr linuxpl microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pldhelp plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sad sapkowski seneka sigpl sigvirus slogany spolem sport stachura radio_maryja rywingate wieza-pilot zen znaki_zodiaku"
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 for i in $COOKIES;
 do
@@ -1012,6 +1024,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,644)
 %{_datadir}/games/fortunes/radio_maryja
 %{_datadir}/games/fortunes/radio_maryja.dat
+
+%files -n fortune-mod-pl-rywingate
+%defattr(644,root,root,644)
+%{_datadir}/games/fortunes/rywingate
+%{_datadir}/games/fortunes/rywingate.dat
 
 %files -n fortune-mod-pl-wieza-pilot
 %defattr(644,root,root,644)
