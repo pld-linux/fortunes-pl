@@ -5,8 +5,6 @@ Version:	1.0
 Release:	1
 License:	GPL
 Group:		Applications/Games
-Group(de):	Applikationen/Spiele
-Group(pl):	Aplikacje/Gry
 Source0:	%{name}.tar.gz
 BuildRequires:	fortune-mod
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
