@@ -33,8 +33,6 @@ by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
 Ten pakiet zawiera kolekcjê polskich fortunek z cvs.pld.org.pl
 
 %prep
-install -d %{name}
-tar zxf %{SOURCE0} 
 %setup -q -n %{name}
 
 %build
@@ -44,7 +42,7 @@ COOKIES="argante linux milosc ospl-ad puchatek stachura haiku linuxfr misc pcol 
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 for i in $COOKIES;
 do
- strfile $i;
+ /usr/sbin/strfile $i;
  install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
 done;
 
