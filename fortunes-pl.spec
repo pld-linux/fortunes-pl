@@ -855,10 +855,9 @@ Requires:	fortune-mod
 rm -rf $RPM_BUILD_ROOT
 COOKIES="adamg advocacy apcoh argante bajki baseciq blug bok cows cnp djurban dowcipy dowcipy-feministyczne dowcipy-niskopoziomowe dwimc dzieci gra_polslowek haiku http icpusers imiona_facetow ipv6.pl kloczkish komputery konikbujany koscielne lcamtuf linux linuxfr linuxpl matura microsoft milosc misc nauka nowe ospl ospl-ad pcol perl pingwinaria pld pld-offensive pldhelp-offensive plug polish_manpages pratchett puchatek p³ug p³ug-slc2001 sad sapkowski seneka sigpl sigvirus slogany spolem sport stachura radio_maryja rywingate wieza-pilot zen znaki_zodiaku"
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-for i in $COOKIES;
-do
- strfile $i;
- install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
+for i in $COOKIES; do
+	strfile $i;
+	install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
 done;
 
 %clean
