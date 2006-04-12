@@ -420,7 +420,7 @@ Summary(pl):	Zestaw fortunek: p³ug-slc2001
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-p³ug-slc2001
+%description -n fortune-mod-pl-plug-slc2001
 + p³ug-slc2001 -- Polish(ed) £y¿ka Users Group: Summer Libation Camp 2001
 
 %package -n fortune-mod-pl-plug
