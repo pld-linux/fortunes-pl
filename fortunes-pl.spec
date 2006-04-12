@@ -8,7 +8,7 @@ Summary:	Collection of Polish Fortunes
 Summary(pl):	Zbiór polskich fortunek
 Name:		fortunes-pl
 Version:	20050620
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
@@ -414,8 +414,8 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-rywingate
 + rywingate -- trochê tekstów od komisji ¶ledczej
 
-%package -n fortune-mod-pl-p³ug-slc2001
-Summary:	Fortune mod: p³ug-slc2001
+%package -n fortune-mod-pl-plug-slc2001
+Summary:	Fortune mod: plug-slc2001
 Summary(pl):	Zestaw fortunek: p³ug-slc2001
 Group:		Applications/Games
 Requires:	fortune-mod
@@ -423,13 +423,13 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-p³ug-slc2001
 + p³ug-slc2001 -- Polish(ed) £y¿ka Users Group: Summer Libation Camp 2001
 
-%package -n fortune-mod-pl-p³ug
+%package -n fortune-mod-pl-plug
 Summary:	Fortune mod: p³ug
 Summary(pl):	Zestaw fortunek: p³ug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-p³ug
+%description -n fortune-mod-pl-plug
 + p³ug -- kana³ #p³ug: Polish(ed) £y¿ka Users Group
 
 %package -n fortune-mod-pl-puchatek
@@ -1230,12 +1230,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/rywingate
 %{_datadir}/games/fortunes/rywingate.dat
 
-%files -n fortune-mod-pl-p³ug-slc2001
+%files -n fortune-mod-pl-plug-slc2001
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/p³ug-slc2001
 %{_datadir}/games/fortunes/p³ug-slc2001.dat
 
-%files -n fortune-mod-pl-p³ug
+%files -n fortune-mod-pl-plug
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/p³ug
 %{_datadir}/games/fortunes/p³ug.dat
