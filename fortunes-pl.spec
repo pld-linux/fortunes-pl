@@ -423,13 +423,13 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-plug-slc2001
 + p³ug-slc2001 -- Polish(ed) £y¿ka Users Group: Summer Libation Camp 2001
 
-%package -n fortune-mod-pl-plug
+%package -n fortune-mod-pl-pLug
 Summary:	Fortune mod: p³ug
 Summary(pl):	Zestaw fortunek: p³ug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-plug
+%description -n fortune-mod-pl-pLug
 + p³ug -- kana³ #p³ug: Polish(ed) £y¿ka Users Group
 
 %package -n fortune-mod-pl-puchatek
