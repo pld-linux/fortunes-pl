@@ -1235,7 +1235,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/games/fortunes/p³ug-slc2001
 %{_datadir}/games/fortunes/p³ug-slc2001.dat
 
-%files -n fortune-mod-pl-plug
+%files -n fortune-mod-pl-pLug
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/p³ug
 %{_datadir}/games/fortunes/p³ug.dat
