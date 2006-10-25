@@ -1,5 +1,6 @@
 #
 # THIS IS GENERATED FILE. DO NOT EDIT BY HAND.
+# screw you, fix the generation!
 #
 # If you want to modify or regenerate it use script from CVS:
 # fortunes-pl/SPEC/*
@@ -8,7 +9,7 @@ Summary:	Collection of Polish Fortunes
 Summary(pl):	Zbiór polskich fortunek
 Name:		fortunes-pl
 Version:	20060830
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
@@ -220,26 +221,6 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-wierszyki
 + wierszyki -- prosto z przedszkola (offensive)
-
-%package -n fortune-mod-pl-skrypt.awk
-Summary:	Fortune mod: skrypt.awk
-Summary(pl):	Zestaw fortunek: skrypt.awk
-Group:		Applications/Games
-Requires:	fortune-mod
-
-%description -n fortune-mod-pl-skrypt.awk
-Fortune mod: skrypt.awk
-
-We are sorry that there is no more useful description,
-but pzurowski is too lame to add description to the README
-file. Send your requests to pzurowski@pld-linux.org
-
-%description -n fortune-mod-pl-skrypt.awk -l pl
-Zestaw fortunek: skrypt.awk
-
-Przykro nam, ¿e nie ma bardziej dok³adnego opisu,
-ale pzurowski nie potrafi dodaæ opisu do pliku README.
-Pro¶by prosimy kierowaæ na adres pzurowski@pld-linux.org
 
 %package -n fortune-mod-pl-polish_manpages
 Summary:	Fortune mod: polish_manpages
@@ -1145,11 +1126,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/wierszyki
 %{_datadir}/games/fortunes/wierszyki.dat
-
-%files -n fortune-mod-pl-skrypt.awk
-%defattr(644,root,root,755)
-%{_datadir}/games/fortunes/skrypt.awk
-%{_datadir}/games/fortunes/skrypt.awk.dat
 
 %files -n fortune-mod-pl-polish_manpages
 %defattr(644,root,root,755)
