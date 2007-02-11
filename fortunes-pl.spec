@@ -406,7 +406,7 @@ Requires:	fortune-mod
 + p³ug-slc2001 -- Polish(ed) £y¿ka Users Group: Summer Libation Camp 2001
 
 %package -n fortune-mod-pl-pLug
-Summary:	Fortune mod: p³ug
+Summary:	Fortune mod: pLug
 Summary(pl):	Zestaw fortunek: p³ug
 Group:		Applications/Games
 Requires:	fortune-mod
