@@ -45,7 +45,7 @@ Summary(pl):	Zestaw fortunek: debian.pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-debian.pl
+%description -n fortune-mod-pl-debian.pl -l pl
 + debian.pl -- fortunki z kana³u #debian
 
 %package -n fortune-mod-pl-dowcipy-naukowcy
@@ -74,7 +74,7 @@ Summary(pl):	Zestaw fortunek: dowcipy-niskopoziomowe
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy-niskopoziomowe
+%description -n fortune-mod-pl-dowcipy-niskopoziomowe -l pl
 + dowcipy-niskopoziomowe -- dowcipy kategorii B
 
 %package -n fortune-mod-pl-dowcipy-szowinistyczne
@@ -83,7 +83,7 @@ Summary(pl):	Zestaw fortunek: dowcipy-szowinistyczne
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy-szowinistyczne
+%description -n fortune-mod-pl-dowcipy-szowinistyczne -l pl
 + dowcipy-szowinistyczne -- to, co faceci lubi± najbardziej
 
 %package -n fortune-mod-pl-sport
@@ -92,7 +92,7 @@ Summary(pl):	Zestaw fortunek: sport
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sport
+%description -n fortune-mod-pl-sport -l pl
 + sport -- komentatorzy sportowi mówi± szybciej, ni¿ my¶l±
 
 %package -n fortune-mod-pl-slownik
@@ -101,7 +101,7 @@ Summary(pl):	Zestaw fortunek: slownik
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-slownik
+%description -n fortune-mod-pl-slownik -l pl
 + slownik -- s³ownik polsko-¶wiatowy
 
 %package -n fortune-mod-pl-teleturnieje
@@ -210,7 +210,7 @@ Summary(pl):	Zestaw fortunek: kloczkish
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-kloczkish
+%description -n fortune-mod-pl-kloczkish -l pl
 + kloczkish -- cytaty z Tomasza K³oczko
 
 %package -n fortune-mod-pl-wierszyki
@@ -219,7 +219,7 @@ Summary(pl):	Zestaw fortunek: wierszyki
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-wierszyki
+%description -n fortune-mod-pl-wierszyki -l pl
 + wierszyki -- prosto z przedszkola (offensive)
 
 %package -n fortune-mod-pl-polish_manpages
@@ -228,7 +228,7 @@ Summary(pl):	Zestaw fortunek: polish_manpages
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-polish_manpages
+%description -n fortune-mod-pl-polish_manpages -l pl
 + polish_manpages -- polskie t³umaczenia bywaj± tak zabawne, jak ¿a³osne
 
 %package -n fortune-mod-pl-mmazur
@@ -257,7 +257,7 @@ Summary(pl):	Zestaw fortunek: sapkowski
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sapkowski
+%description -n fortune-mod-pl-sapkowski -l pl
 + sapkowski -- cytaty z Andrzeja Sapkowskiego
 
 %package -n fortune-mod-pl-advocacy
@@ -266,7 +266,7 @@ Summary(pl):	Zestaw fortunek: advocacy
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-advocacy
+%description -n fortune-mod-pl-advocacy -l pl
 + advocacy -- Z³ota Ksiêga Cytatów
   Cytaty s± na pograniczu ¶mieszno¶ci i ¿a³osno¶ci...
   ¬ród³o: http://lech7.pse.pl/ZKC/
@@ -277,7 +277,7 @@ Summary(pl):	Zestaw fortunek: imiona
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-imiona
+%description -n fortune-mod-pl-imiona -l pl
 + imiona -- czego mo¿na siê spodziewaæ po kim¶ o danym imieniu
 
 %package -n fortune-mod-pl-pldhelp-offensive
@@ -286,7 +286,7 @@ Summary(pl):	Zestaw fortunek: pldhelp-offensive
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pldhelp-offensive
+%description -n fortune-mod-pl-pldhelp-offensive -l pl
 + pldhelp-offensive -- kana³ #pldhelp && support (nieocenzurowane)
 
 %package -n fortune-mod-pl-pld-offensive
@@ -295,7 +295,7 @@ Summary(pl):	Zestaw fortunek: pld-offensive
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pld-offensive
+%description -n fortune-mod-pl-pld-offensive -l pl
 + pld-offensive -- chodzi oczywi¶cie o wypowiedzi polityków z Porozumienia
   Ludowo - Demokratycznego ;-p (nieocenzurowane)
 
@@ -305,7 +305,7 @@ Summary(pl):	Zestaw fortunek: testnaosobowosc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-testnaosobowosc
+%description -n fortune-mod-pl-testnaosobowosc -l pl
 + testnaosobowosc -- jestem jaki jestem
 
 %package -n fortune-mod-pl-stachura
@@ -314,7 +314,7 @@ Summary(pl):	Zestaw fortunek: stachura
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-stachura
+%description -n fortune-mod-pl-stachura -l pl
 + stachura -- kilka wierszy
 
 %package -n fortune-mod-pl-spolem
@@ -343,7 +343,7 @@ Summary(pl):	Zestaw fortunek: slogany
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-slogany
+%description -n fortune-mod-pl-slogany -l pl
 + slogany -- ¼ród³o jest podane w sygnaturkach; chyba lepiej je przenie¶æ
   tutaj, podes³a³ Marcin Rzewucki <marcinr@linuxpl.org>
 
@@ -353,7 +353,7 @@ Summary(pl):	Zestaw fortunek: sigvirus
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sigvirus
+%description -n fortune-mod-pl-sigvirus -l pl
 + sigvirus -- t³umaczenie z angielskiego, pochodz± z witryny, której
   adresu nikt ju¿ nie pamiêta ;-)
 
@@ -363,7 +363,7 @@ Summary(pl):	Zestaw fortunek: sigpl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sigpl
+%description -n fortune-mod-pl-sigpl -l pl
 + sigpl -- polskie sygnaturki ze strony £ukasza Kowalczyka
   (www.hoohoo.prv.pl)
 
@@ -373,7 +373,7 @@ Summary(pl):	Zestaw fortunek: seneka
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-seneka
+%description -n fortune-mod-pl-seneka -l pl
 + seneka -- ze zbioru "My¶li"
 
 %package -n fortune-mod-pl-sad
@@ -382,7 +382,7 @@ Summary(pl):	Zestaw fortunek: sad
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sad
+%description -n fortune-mod-pl-sad -l pl
 + sad -- Cytaty z amerykañskiej ksi±¿ki 'Disorder in the Court'. To s±
   autentyczne zdania, które pad³y w s±dach - s³owo w s³owo.
   Nagrane i opublikowane przez reporterów s±dowych.
@@ -393,7 +393,7 @@ Summary(pl):	Zestaw fortunek: rywingate
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-rywingate
+%description -n fortune-mod-pl-rywingate -l pl
 + rywingate -- trochê tekstów od komisji ¶ledczej
 
 %package -n fortune-mod-pl-plug-slc2001
@@ -402,7 +402,7 @@ Summary(pl):	Zestaw fortunek: p³ug-slc2001
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-plug-slc2001
+%description -n fortune-mod-pl-plug-slc2001 -l pl
 + p³ug-slc2001 -- Polish(ed) £y¿ka Users Group: Summer Libation Camp 2001
 
 %package -n fortune-mod-pl-pLug
@@ -411,7 +411,7 @@ Summary(pl):	Zestaw fortunek: p³ug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pLug
+%description -n fortune-mod-pl-pLug -l pl
 + p³ug -- kana³ #p³ug: Polish(ed) £y¿ka Users Group
 
 %package -n fortune-mod-pl-puchatek
@@ -420,7 +420,7 @@ Summary(pl):	Zestaw fortunek: puchatek
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-puchatek
+%description -n fortune-mod-pl-puchatek -l pl
 + puchatek -- (gdyby kto¶ chcia³ pododawaæ co¶ o Misiu...) z anathema.eu.org
 
 %package -n fortune-mod-pl-plug
@@ -429,7 +429,7 @@ Summary(pl):	Zestaw fortunek: plug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-plug
+%description -n fortune-mod-pl-plug -l pl
 + plug -- m±dro¶ci z kana³u #plug, podes³a³ Mateusz Golicz
   <mtg@elsat.net.pl> oraz ogroooomna aktualizacja dziêki
   Tygrysowi (tygrys@tangerine.dream.art.pl).
@@ -440,7 +440,7 @@ Summary(pl):	Zestaw fortunek: pldhelp
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pldhelp
+%description -n fortune-mod-pl-pldhelp -l pl
 + pldhelp -- kana³ #pldhelp && support
 
 %package -n fortune-mod-pl-pingwinaria
@@ -449,7 +449,7 @@ Summary(pl):	Zestaw fortunek: pingwinaria
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pingwinaria
+%description -n fortune-mod-pl-pingwinaria -l pl
 + pingwinaria -- teksty z Pingwinariów, zbierane w bojach ;>
 
 %package -n fortune-mod-pl-perl
@@ -458,7 +458,7 @@ Summary(pl):	Zestaw fortunek: perl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-perl
+%description -n fortune-mod-pl-perl -l pl
 + perl -- t³umaczenie z angielskiego, pochodz± z witryny, której adresu
   nikt ju¿ nie pamiêta ;-)
 
@@ -468,7 +468,7 @@ Summary(pl):	Zestaw fortunek: pcol
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pcol
+%description -n fortune-mod-pl-pcol -l pl
 + pcol -- z grupy dyskusyjnej pl.comp.os.linux; bardzo wdziêczne miejsce
   dla zbieraczy fortunek
 
@@ -478,7 +478,7 @@ Summary(pl):	Zestaw fortunek: ospl-ad
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-ospl-ad
+%description -n fortune-mod-pl-ospl-ad -l pl
 + ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i sygnaturek :-)
 
 %package -n fortune-mod-pl-ospl
@@ -487,7 +487,7 @@ Summary(pl):	Zestaw fortunek: ospl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-ospl
+%description -n fortune-mod-pl-ospl -l pl
 + ospl -- pewnego dnia grupka ludzi stwierdzi³a, ¿e tak dalej byæ nie
   mo¿e ;-) a przy okazji powsta³a gar¶æ fortunek
 
@@ -497,7 +497,7 @@ Summary(pl):	Zestaw fortunek: nowe
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-nowe
+%description -n fortune-mod-pl-nowe -l pl
 + nowe -- miejsce na nowe, pojedyncze fortunki
 
 %package -n fortune-mod-pl-nauka
@@ -506,7 +506,7 @@ Summary(pl):	Zestaw fortunek: nauka
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-nauka
+%description -n fortune-mod-pl-nauka -l pl
 + nauka -- t³umaczenie z angielskiego, pochodz± z witryny, której adresu
   nikt ju¿ nie pamiêta ;-)
 
@@ -516,7 +516,7 @@ Summary(pl):	Zestaw fortunek: misc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-misc
+%description -n fortune-mod-pl-misc -l pl
 + misc -- t³umaczenie z angielskiego, pochodz± z witryny, której adresu
   nikt ju¿ nie pamiêta ;-)
 
@@ -526,7 +526,7 @@ Summary(pl):	Zestaw fortunek: milosc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-milosc
+%description -n fortune-mod-pl-milosc -l pl
 + milosc -- wiersze dziewczyny Diabl0 <diabl0@poczta.fm>
 
 %package -n fortune-mod-pl-microsoft
@@ -535,7 +535,7 @@ Summary(pl):	Zestaw fortunek: microsoft
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-microsoft
+%description -n fortune-mod-pl-microsoft -l pl
 + microsoft -- t³umaczenie z angielskiego, pochodz± z witryny, której
   adresu nikt ju¿ nie pamiêta ;-) plus do¶wiadczenia w³asne ;-)
 
@@ -545,7 +545,7 @@ Summary(pl):	Zestaw fortunek: matura
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-matura
+%description -n fortune-mod-pl-matura -l pl
 + matura -- pewniaki na maturê oraz teksty z matury ;)
 
 %package -n fortune-mod-pl-linuxpl
@@ -554,7 +554,7 @@ Summary(pl):	Zestaw fortunek: linuxpl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-linuxpl
+%description -n fortune-mod-pl-linuxpl -l pl
 + linuxpl -- m±dro¶ci z kana³u #linuxpl, podes³a³ Mateusz Golicz
   <mtg@elsat.net.pl>; nastêpnie dodano to, co zebra³ Marcoos
   <fortune@pertus.com.pl>
@@ -565,7 +565,7 @@ Summary(pl):	Zestaw fortunek: linuxfr
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-linuxfr
+%description -n fortune-mod-pl-linuxfr -l pl
 + linuxfr -- kana³ #linuxfr (?)
 
 %package -n fortune-mod-pl-linux
@@ -574,7 +574,7 @@ Summary(pl):	Zestaw fortunek: linux
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-linux
+%description -n fortune-mod-pl-linux -l pl
 + linux -- t³umaczenie z angielskiego, pochodz± z witryny, której adresu
   nikt ju¿ nie pamiêta ;-)
 
@@ -604,7 +604,7 @@ Summary(pl):	Zestaw fortunek: lcamtuf
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-lcamtuf
+%description -n fortune-mod-pl-lcamtuf -l pl
 + lcamtuf -- co lepsze fragmenty listów do lcamtufa oraz msg-ów z #hackpl.
 
 %package -n fortune-mod-pl-koscielne
@@ -613,7 +613,7 @@ Summary(pl):	Zestaw fortunek: koscielne
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-koscielne
+%description -n fortune-mod-pl-koscielne -l pl
 + koscielne -- o ko¶ciele 
 
 %package -n fortune-mod-pl-konikbujany
@@ -622,7 +622,7 @@ Summary(pl):	Zestaw fortunek: konikbujany
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-konikbujany
+%description -n fortune-mod-pl-konikbujany -l pl
 + konikbujany -- wypowiedzi cz³owieka przedstawiaj±cego siê jako konikbujany
   (miêdzy innymi), bardzo egzotyczna postaæ; z anathema.eu.org
 
@@ -632,7 +632,7 @@ Summary(pl):	Zestaw fortunek: komputery
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-komputery
+%description -n fortune-mod-pl-komputery -l pl
 + komputery -- t³umaczenie z angielskiego, pochodz± z witryny, której
   adresu nikt ju¿ nie pamiêta ;-)
 
@@ -662,7 +662,7 @@ Summary(pl):	Zestaw fortunek: ipv6.pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-ipv6.pl
+%description -n fortune-mod-pl-ipv6.pl -l pl
 + ipv6.pl -- fortunki z kana³u #ipv6.pl
 
 %package -n fortune-mod-pl-icpusers
@@ -691,7 +691,7 @@ Summary(pl):	Zestaw fortunek: http
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-http
+%description -n fortune-mod-pl-http -l pl
 + http -- a co by by³o, gdyby kobiety by³y serwerami http?
 
 %package -n fortune-mod-pl-haiku
@@ -700,7 +700,7 @@ Summary(pl):	Zestaw fortunek: haiku
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-haiku
+%description -n fortune-mod-pl-haiku -l pl
 + haiku -- ¼ród³o nieznane
 
 %package -n fortune-mod-pl-gra_polslowek
@@ -709,7 +709,7 @@ Summary(pl):	Zestaw fortunek: gra_polslowek
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-gra_polslowek
+%description -n fortune-mod-pl-gra_polslowek -l pl
 + gra_polslowek -- gra polega na zamianie miejscami DU¯YCH liter w krótkich
   zdaniach (na przyk³ad: Gra pó³S³ówek -> Sra pó³G³ówek)
 
@@ -719,7 +719,7 @@ Summary(pl):	Zestaw fortunek: dwimc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dwimc
+%description -n fortune-mod-pl-dwimc -l pl
 + dwimc -- cycaty w t³umaczeniu polskim (Yagoda) z filmu "Stary, gdzie jest
   moja bryka ?!"
 
@@ -749,7 +749,7 @@ Summary(pl):	Zestaw fortunek: dowcipy-feministyczne
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy-feministyczne
+%description -n fortune-mod-pl-dowcipy-feministyczne -l pl
 + dowcipy-feministyczne -- sam feminizm
 
 %package -n fortune-mod-pl-djurban
@@ -758,7 +758,7 @@ Summary(pl):	Zestaw fortunek: djurban
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-djurban
+%description -n fortune-mod-pl-djurban -l pl
 + djurban -- m±dro¶ci djurbana
 
 %package -n fortune-mod-pl-cows
@@ -767,7 +767,7 @@ Summary(pl):	Zestaw fortunek: cows
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-cows
+%description -n fortune-mod-pl-cows -l pl
 + cows -- wariacje na temat cowsay
 
 %package -n fortune-mod-pl-cnp
@@ -776,7 +776,7 @@ Summary(pl):	Zestaw fortunek: cnp
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-cnp
+%description -n fortune-mod-pl-cnp -l pl
 + cnp -- cytaty z filmu "Ch³opaki nie p³acz±"
 
 %package -n fortune-mod-pl-bok
@@ -785,7 +785,7 @@ Summary(pl):	Zestaw fortunek: bok
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-bok
+%description -n fortune-mod-pl-bok -l pl
 + bok -- teksty z ró¿nych Biur Obs³ugi Klienta, sklepów komputerowych itp,
          generalnie PMKAK (Problem Miêdzy Krzes³em A Komputerem) :)
 
@@ -815,7 +815,7 @@ Summary(pl):	Zestaw fortunek: dzieci
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dzieci
+%description -n fortune-mod-pl-dzieci -l pl
 + dzieci -- ... w oczach dzieci
 
 %package -n fortune-mod-pl-blug
@@ -824,7 +824,7 @@ Summary(pl):	Zestaw fortunek: blug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-blug
+%description -n fortune-mod-pl-blug -l pl
 + blug -- wypowiedzi cz³onków Bydgoszcz Linux Users Group wychwycone z #blug
 
 %package -n fortune-mod-pl-baseciq
@@ -833,7 +833,7 @@ Summary(pl):	Zestaw fortunek: baseciq
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-baseciq
+%description -n fortune-mod-pl-baseciq -l pl
 + baseciq -- <@Baseciq> có¿, wiem ¿e jak co¶ czasami jebnê jak±¶ bzdurê
   to pó³ polski ma ubaw.
 
@@ -843,7 +843,7 @@ Summary(pl):	Zestaw fortunek: bajki
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-bajki
+%description -n fortune-mod-pl-bajki -l pl
 + bajki -- bajki o nale¶niku, powid³ach, kapu¶cie, w±tróbce, pantofelku...
 
 %package -n fortune-mod-pl-argante
@@ -852,7 +852,7 @@ Summary(pl):	Zestaw fortunek: argante
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-argante
+%description -n fortune-mod-pl-argante -l pl
 + argante -- cytaty z listy mailingowej projektu argante (www.argante.org)
   i kana³u #argante
 
@@ -862,7 +862,7 @@ Summary(pl):	Zestaw fortunek: apcoh
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-apcoh
+%description -n fortune-mod-pl-apcoh -l pl
 + apcoh -- najbardziej abstrakcyjne z alt.pl.comp.os.hacking
 
 %package -n fortune-mod-pl-adamg
@@ -871,7 +871,7 @@ Summary(pl):	Zestaw fortunek: adamg
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-adamg
+%description -n fortune-mod-pl-adamg -l pl
 + adamg -- m±dro¶ci Adama Go³êbiowskiego
 
 %package -n fortune-mod-pl-znaki_zodiaku
@@ -880,7 +880,7 @@ Summary(pl):	Zestaw fortunek: znaki_zodiaku
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-znaki_zodiaku
+%description -n fortune-mod-pl-znaki_zodiaku -l pl
 + znaki_zodiaku -- horoskop na ka¿d± okazjê autorstwa Stanis³awa Tyma
 
 %package -n fortune-mod-pl-7thguard
@@ -929,7 +929,7 @@ Summary(pl):	Zestaw fortunek: zen
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-zen
+%description -n fortune-mod-pl-zen -l pl
 + zen -- buddyzm zen
 
 %package -n fortune-mod-pl-wieza-pilot
@@ -938,7 +938,7 @@ Summary(pl):	Zestaw fortunek: wieza-pilot
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-wieza-pilot
+%description -n fortune-mod-pl-wieza-pilot -l pl
 + wieza-pilot -- rozmowy wie¿a-pilot
 
 %package -n fortune-mod-pl-newyear
@@ -967,7 +967,7 @@ Summary(pl):	Zestaw fortunek: pplug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pplug
+%description -n fortune-mod-pl-pplug -l pl
 + pplug -- nieoficjalny kanal nieistniej±cego Poznañskiego PLUG-a
 
 %package -n fortune-mod-pl-pld
@@ -976,7 +976,7 @@ Summary(pl):	Zestaw fortunek: pld
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pld
+%description -n fortune-mod-pl-pld -l pl
 + pld -- chodzi oczywi¶cie o wypowiedzi polityków z Porozumienia Ludowo -
   Demokratycznego ;-p
 
@@ -1006,7 +1006,7 @@ Summary(pl):	Zestaw fortunek: dowcipy
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy
+%description -n fortune-mod-pl-dowcipy -l pl
 + dowcipy -- tego chyba nie trzeba opisywaæ
 
 %package -n fortune-mod-pl-radio_maryja
@@ -1015,7 +1015,7 @@ Summary(pl):	Zestaw fortunek: radio_maryja
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-radio_maryja
+%description -n fortune-mod-pl-radio_maryja -l pl
 + radio_maryja -- apolityczne radio maryja
 
 %package -n fortune-mod-pl-stirlitz
@@ -1044,7 +1044,7 @@ Summary(pl):	Zestaw fortunek: pratchett
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pratchett
+%description -n fortune-mod-pl-pratchett -l pl
 + pratchett -- cytaty z Terry'ego Pratchetta (t³. w wiêkszo¶ci P.W. Cholewa)
 
 %prep
