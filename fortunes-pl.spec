@@ -6,7 +6,7 @@
 # fortunes-pl/SPEC/*
 #
 Summary:	Collection of Polish Fortunes
-Summary(pl):	ZbiÛr polskich fortunek
+Summary(pl.UTF-8):	Zbi√≥r polskich fortunek
 Name:		fortunes-pl
 Version:	20060830
 Release:	2
@@ -30,27 +30,27 @@ bits o' wit.
 
 This package constant colection of polish fortunes from cvs.pld-linux.org
 
-%description -l pl
-Fortune-mod zawiera wci±ø popularny program fortune ("cytat dnia",
-"przepowiednia"). Masz ochotÍ na odrobinÍ m±dro∂ci przekazanej Ci
+%description -l pl.UTF-8
+Fortune-mod zawiera wciƒÖ≈º popularny program fortune ("cytat dnia",
+"przepowiednia"). Masz ochotƒô na odrobinƒô mƒÖdro≈õci przekazanej Ci
 podczas logowania? Program fortune jest dla Ciebie. Administratorzy z
-poczuciem humoru mog± zainstalowaÊ fortune-mod-on-login, by kaødy
-otrzyma≥ swoj± dawkÍ m±dro∂ci przy logowaniu.
+poczuciem humoru mogƒÖ zainstalowaƒá fortune-mod-on-login, by ka≈ºdy
+otrzyma≈Ç swojƒÖ dawkƒô mƒÖdro≈õci przy logowaniu.
 
-Ten pakiet zawiera kolekcjÍ polskich fortunek z cvs.pld-linux.org
+Ten pakiet zawiera kolekcjƒô polskich fortunek z cvs.pld-linux.org
 
 %package -n fortune-mod-pl-debian.pl
 Summary:	Fortune mod: debian.pl
-Summary(pl):	Zestaw fortunek: debian.pl
+Summary(pl.UTF-8):	Zestaw fortunek: debian.pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-debian.pl -l pl
-+ debian.pl -- fortunki z kana≥u #debian
+%description -n fortune-mod-pl-debian.pl -l pl.UTF-8
++ debian.pl -- fortunki z kana≈Çu #debian
 
 %package -n fortune-mod-pl-dowcipy-naukowcy
 Summary:	Fortune mod: dowcipy-naukowcy
-Summary(pl):	Zestaw fortunek: dowcipy-naukowcy
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-naukowcy
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -61,52 +61,52 @@ We are sorry that there is no more useful description,
 but leafnode is too lame to add description to the README
 file. Send your requests to leafnode@pld-linux.org
 
-%description -n fortune-mod-pl-dowcipy-naukowcy -l pl
+%description -n fortune-mod-pl-dowcipy-naukowcy -l pl.UTF-8
 Zestaw fortunek: dowcipy-naukowcy
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale leafnode nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres leafnode@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale leafnode nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres leafnode@pld-linux.org
 
 %package -n fortune-mod-pl-dowcipy-niskopoziomowe
 Summary:	Fortune mod: dowcipy-niskopoziomowe
-Summary(pl):	Zestaw fortunek: dowcipy-niskopoziomowe
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-niskopoziomowe
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy-niskopoziomowe -l pl
+%description -n fortune-mod-pl-dowcipy-niskopoziomowe -l pl.UTF-8
 + dowcipy-niskopoziomowe -- dowcipy kategorii B
 
 %package -n fortune-mod-pl-dowcipy-szowinistyczne
 Summary:	Fortune mod: dowcipy-szowinistyczne
-Summary(pl):	Zestaw fortunek: dowcipy-szowinistyczne
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-szowinistyczne
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy-szowinistyczne -l pl
-+ dowcipy-szowinistyczne -- to, co faceci lubi± najbardziej
+%description -n fortune-mod-pl-dowcipy-szowinistyczne -l pl.UTF-8
++ dowcipy-szowinistyczne -- to, co faceci lubiƒÖ najbardziej
 
 %package -n fortune-mod-pl-sport
 Summary:	Fortune mod: sport
-Summary(pl):	Zestaw fortunek: sport
+Summary(pl.UTF-8):	Zestaw fortunek: sport
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sport -l pl
-+ sport -- komentatorzy sportowi mÛwi± szybciej, niø my∂l±
+%description -n fortune-mod-pl-sport -l pl.UTF-8
++ sport -- komentatorzy sportowi m√≥wiƒÖ szybciej, ni≈º my≈õlƒÖ
 
 %package -n fortune-mod-pl-slownik
 Summary:	Fortune mod: slownik
-Summary(pl):	Zestaw fortunek: slownik
+Summary(pl.UTF-8):	Zestaw fortunek: slownik
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-slownik -l pl
-+ slownik -- s≥ownik polsko-∂wiatowy
+%description -n fortune-mod-pl-slownik -l pl.UTF-8
++ slownik -- s≈Çownik polsko-≈õwiatowy
 
 %package -n fortune-mod-pl-teleturnieje
 Summary:	Fortune mod: teleturnieje
-Summary(pl):	Zestaw fortunek: teleturnieje
+Summary(pl.UTF-8):	Zestaw fortunek: teleturnieje
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -117,16 +117,16 @@ We are sorry that there is no more useful description,
 but leafnode is too lame to add description to the README
 file. Send your requests to leafnode@pld-linux.org
 
-%description -n fortune-mod-pl-teleturnieje -l pl
+%description -n fortune-mod-pl-teleturnieje -l pl.UTF-8
 Zestaw fortunek: teleturnieje
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale leafnode nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres leafnode@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale leafnode nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres leafnode@pld-linux.org
 
 %package -n fortune-mod-pl-jogger_pl
 Summary:	Fortune mod: jogger_pl
-Summary(pl):	Zestaw fortunek: jogger_pl
+Summary(pl.UTF-8):	Zestaw fortunek: jogger_pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -137,16 +137,16 @@ We are sorry that there is no more useful description,
 but jpc is too lame to add description to the README
 file. Send your requests to jpc@pld-linux.org
 
-%description -n fortune-mod-pl-jogger_pl -l pl
+%description -n fortune-mod-pl-jogger_pl -l pl.UTF-8
 Zestaw fortunek: jogger_pl
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale jpc nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres jpc@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale jpc nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres jpc@pld-linux.org
 
 %package -n fortune-mod-pl-gentoo
 Summary:	Fortune mod: gentoo
-Summary(pl):	Zestaw fortunek: gentoo
+Summary(pl.UTF-8):	Zestaw fortunek: gentoo
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -157,16 +157,16 @@ We are sorry that there is no more useful description,
 but kolodko is too lame to add description to the README
 file. Send your requests to kolodko@pld-linux.org
 
-%description -n fortune-mod-pl-gentoo -l pl
+%description -n fortune-mod-pl-gentoo -l pl.UTF-8
 Zestaw fortunek: gentoo
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale kolodko nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres kolodko@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale kolodko nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres kolodko@pld-linux.org
 
 %package -n fortune-mod-pl-dowcipy-lepper
 Summary:	Fortune mod: dowcipy-lepper
-Summary(pl):	Zestaw fortunek: dowcipy-lepper
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-lepper
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -177,16 +177,16 @@ We are sorry that there is no more useful description,
 but leafnode is too lame to add description to the README
 file. Send your requests to leafnode@pld-linux.org
 
-%description -n fortune-mod-pl-dowcipy-lepper -l pl
+%description -n fortune-mod-pl-dowcipy-lepper -l pl.UTF-8
 Zestaw fortunek: dowcipy-lepper
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale leafnode nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres leafnode@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale leafnode nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres leafnode@pld-linux.org
 
 %package -n fortune-mod-pl-x-avalon
 Summary:	Fortune mod: x-avalon
-Summary(pl):	Zestaw fortunek: x-avalon
+Summary(pl.UTF-8):	Zestaw fortunek: x-avalon
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -197,43 +197,43 @@ We are sorry that there is no more useful description,
 but djurban is too lame to add description to the README
 file. Send your requests to djurban@pld-linux.org
 
-%description -n fortune-mod-pl-x-avalon -l pl
+%description -n fortune-mod-pl-x-avalon -l pl.UTF-8
 Zestaw fortunek: x-avalon
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale djurban nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres djurban@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale djurban nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-kloczkish
 Summary:	Fortune mod: kloczkish
-Summary(pl):	Zestaw fortunek: kloczkish
+Summary(pl.UTF-8):	Zestaw fortunek: kloczkish
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-kloczkish -l pl
-+ kloczkish -- cytaty z Tomasza K≥oczko
+%description -n fortune-mod-pl-kloczkish -l pl.UTF-8
++ kloczkish -- cytaty z Tomasza K≈Çoczko
 
 %package -n fortune-mod-pl-wierszyki
 Summary:	Fortune mod: wierszyki
-Summary(pl):	Zestaw fortunek: wierszyki
+Summary(pl.UTF-8):	Zestaw fortunek: wierszyki
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-wierszyki -l pl
+%description -n fortune-mod-pl-wierszyki -l pl.UTF-8
 + wierszyki -- prosto z przedszkola (offensive)
 
 %package -n fortune-mod-pl-polish_manpages
 Summary:	Fortune mod: polish_manpages
-Summary(pl):	Zestaw fortunek: polish_manpages
+Summary(pl.UTF-8):	Zestaw fortunek: polish_manpages
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-polish_manpages -l pl
-+ polish_manpages -- polskie t≥umaczenia bywaj± tak zabawne, jak øa≥osne
+%description -n fortune-mod-pl-polish_manpages -l pl.UTF-8
++ polish_manpages -- polskie t≈Çumaczenia bywajƒÖ tak zabawne, jak ≈ºa≈Çosne
 
 %package -n fortune-mod-pl-mmazur
 Summary:	Fortune mod: mmazur
-Summary(pl):	Zestaw fortunek: mmazur
+Summary(pl.UTF-8):	Zestaw fortunek: mmazur
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -244,82 +244,82 @@ We are sorry that there is no more useful description,
 but speedy is too lame to add description to the README
 file. Send your requests to speedy@pld-linux.org
 
-%description -n fortune-mod-pl-mmazur -l pl
+%description -n fortune-mod-pl-mmazur -l pl.UTF-8
 Zestaw fortunek: mmazur
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale speedy nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres speedy@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale speedy nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres speedy@pld-linux.org
 
 %package -n fortune-mod-pl-sapkowski
 Summary:	Fortune mod: sapkowski
-Summary(pl):	Zestaw fortunek: sapkowski
+Summary(pl.UTF-8):	Zestaw fortunek: sapkowski
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sapkowski -l pl
+%description -n fortune-mod-pl-sapkowski -l pl.UTF-8
 + sapkowski -- cytaty z Andrzeja Sapkowskiego
 
 %package -n fortune-mod-pl-advocacy
 Summary:	Fortune mod: advocacy
-Summary(pl):	Zestaw fortunek: advocacy
+Summary(pl.UTF-8):	Zestaw fortunek: advocacy
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-advocacy -l pl
-+ advocacy -- Z≥ota KsiÍga CytatÛw
-  Cytaty s± na pograniczu ∂mieszno∂ci i øa≥osno∂ci...
-  ¨rÛd≥o: http://lech7.pse.pl/ZKC/
+%description -n fortune-mod-pl-advocacy -l pl.UTF-8
++ advocacy -- Z≈Çota Ksiƒôga Cytat√≥w
+  Cytaty sƒÖ na pograniczu ≈õmieszno≈õci i ≈ºa≈Çosno≈õci...
+  ≈πr√≥d≈Ço: http://lech7.pse.pl/ZKC/
 
 %package -n fortune-mod-pl-imiona
 Summary:	Fortune mod: imiona
-Summary(pl):	Zestaw fortunek: imiona
+Summary(pl.UTF-8):	Zestaw fortunek: imiona
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-imiona -l pl
-+ imiona -- czego moøna siÍ spodziewaÊ po kim∂ o danym imieniu
+%description -n fortune-mod-pl-imiona -l pl.UTF-8
++ imiona -- czego mo≈ºna siƒô spodziewaƒá po kim≈õ o danym imieniu
 
 %package -n fortune-mod-pl-pldhelp-offensive
 Summary:	Fortune mod: pldhelp-offensive
-Summary(pl):	Zestaw fortunek: pldhelp-offensive
+Summary(pl.UTF-8):	Zestaw fortunek: pldhelp-offensive
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pldhelp-offensive -l pl
-+ pldhelp-offensive -- kana≥ #pldhelp && support (nieocenzurowane)
+%description -n fortune-mod-pl-pldhelp-offensive -l pl.UTF-8
++ pldhelp-offensive -- kana≈Ç #pldhelp && support (nieocenzurowane)
 
 %package -n fortune-mod-pl-pld-offensive
 Summary:	Fortune mod: pld-offensive
-Summary(pl):	Zestaw fortunek: pld-offensive
+Summary(pl.UTF-8):	Zestaw fortunek: pld-offensive
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pld-offensive -l pl
-+ pld-offensive -- chodzi oczywi∂cie o wypowiedzi politykÛw z Porozumienia
+%description -n fortune-mod-pl-pld-offensive -l pl.UTF-8
++ pld-offensive -- chodzi oczywi≈õcie o wypowiedzi polityk√≥w z Porozumienia
   Ludowo - Demokratycznego ;-p (nieocenzurowane)
 
 %package -n fortune-mod-pl-testnaosobowosc
 Summary:	Fortune mod: testnaosobowosc
-Summary(pl):	Zestaw fortunek: testnaosobowosc
+Summary(pl.UTF-8):	Zestaw fortunek: testnaosobowosc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-testnaosobowosc -l pl
+%description -n fortune-mod-pl-testnaosobowosc -l pl.UTF-8
 + testnaosobowosc -- jestem jaki jestem
 
 %package -n fortune-mod-pl-stachura
 Summary:	Fortune mod: stachura
-Summary(pl):	Zestaw fortunek: stachura
+Summary(pl.UTF-8):	Zestaw fortunek: stachura
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-stachura -l pl
+%description -n fortune-mod-pl-stachura -l pl.UTF-8
 + stachura -- kilka wierszy
 
 %package -n fortune-mod-pl-spolem
 Summary:	Fortune mod: spolem
-Summary(pl):	Zestaw fortunek: spolem
+Summary(pl.UTF-8):	Zestaw fortunek: spolem
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -330,257 +330,257 @@ We are sorry that there is no more useful description,
 but djrzulf is too lame to add description to the README
 file. Send your requests to djrzulf@pld-linux.org
 
-%description -n fortune-mod-pl-spolem -l pl
+%description -n fortune-mod-pl-spolem -l pl.UTF-8
 Zestaw fortunek: spolem
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale djrzulf nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres djrzulf@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale djrzulf nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres djrzulf@pld-linux.org
 
 %package -n fortune-mod-pl-slogany
 Summary:	Fortune mod: slogany
-Summary(pl):	Zestaw fortunek: slogany
+Summary(pl.UTF-8):	Zestaw fortunek: slogany
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-slogany -l pl
-+ slogany -- ºrÛd≥o jest podane w sygnaturkach; chyba lepiej je przenie∂Ê
-  tutaj, podes≥a≥ Marcin Rzewucki <marcinr@linuxpl.org>
+%description -n fortune-mod-pl-slogany -l pl.UTF-8
++ slogany -- ≈∫r√≥d≈Ço jest podane w sygnaturkach; chyba lepiej je przenie≈õƒá
+  tutaj, podes≈Ça≈Ç Marcin Rzewucki <marcinr@linuxpl.org>
 
 %package -n fortune-mod-pl-sigvirus
 Summary:	Fortune mod: sigvirus
-Summary(pl):	Zestaw fortunek: sigvirus
+Summary(pl.UTF-8):	Zestaw fortunek: sigvirus
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sigvirus -l pl
-+ sigvirus -- t≥umaczenie z angielskiego, pochodz± z witryny, ktÛrej
-  adresu nikt juø nie pamiÍta ;-)
+%description -n fortune-mod-pl-sigvirus -l pl.UTF-8
++ sigvirus -- t≈Çumaczenie z angielskiego, pochodzƒÖ z witryny, kt√≥rej
+  adresu nikt ju≈º nie pamiƒôta ;-)
 
 %package -n fortune-mod-pl-sigpl
 Summary:	Fortune mod: sigpl
-Summary(pl):	Zestaw fortunek: sigpl
+Summary(pl.UTF-8):	Zestaw fortunek: sigpl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sigpl -l pl
-+ sigpl -- polskie sygnaturki ze strony £ukasza Kowalczyka
+%description -n fortune-mod-pl-sigpl -l pl.UTF-8
++ sigpl -- polskie sygnaturki ze strony ≈Åukasza Kowalczyka
   (www.hoohoo.prv.pl)
 
 %package -n fortune-mod-pl-seneka
 Summary:	Fortune mod: seneka
-Summary(pl):	Zestaw fortunek: seneka
+Summary(pl.UTF-8):	Zestaw fortunek: seneka
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-seneka -l pl
-+ seneka -- ze zbioru "My∂li"
+%description -n fortune-mod-pl-seneka -l pl.UTF-8
++ seneka -- ze zbioru "My≈õli"
 
 %package -n fortune-mod-pl-sad
 Summary:	Fortune mod: sad
-Summary(pl):	Zestaw fortunek: sad
+Summary(pl.UTF-8):	Zestaw fortunek: sad
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-sad -l pl
-+ sad -- Cytaty z amerykaÒskiej ksi±øki 'Disorder in the Court'. To s±
-  autentyczne zdania, ktÛre pad≥y w s±dach - s≥owo w s≥owo.
-  Nagrane i opublikowane przez reporterÛw s±dowych.
+%description -n fortune-mod-pl-sad -l pl.UTF-8
++ sad -- Cytaty z ameryka≈Ñskiej ksiƒÖ≈ºki 'Disorder in the Court'. To sƒÖ
+  autentyczne zdania, kt√≥re pad≈Çy w sƒÖdach - s≈Çowo w s≈Çowo.
+  Nagrane i opublikowane przez reporter√≥w sƒÖdowych.
 
 %package -n fortune-mod-pl-rywingate
 Summary:	Fortune mod: rywingate
-Summary(pl):	Zestaw fortunek: rywingate
+Summary(pl.UTF-8):	Zestaw fortunek: rywingate
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-rywingate -l pl
-+ rywingate -- trochÍ tekstÛw od komisji ∂ledczej
+%description -n fortune-mod-pl-rywingate -l pl.UTF-8
++ rywingate -- trochƒô tekst√≥w od komisji ≈õledczej
 
 %package -n fortune-mod-pl-plug-slc2001
 Summary:	Fortune mod: plug-slc2001
-Summary(pl):	Zestaw fortunek: p≥ug-slc2001
+Summary(pl.UTF-8):	Zestaw fortunek: p≈Çug-slc2001
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-plug-slc2001 -l pl
-+ p≥ug-slc2001 -- Polish(ed) £yøka Users Group: Summer Libation Camp 2001
+%description -n fortune-mod-pl-plug-slc2001 -l pl.UTF-8
++ p≈Çug-slc2001 -- Polish(ed) ≈Åy≈ºka Users Group: Summer Libation Camp 2001
 
 %package -n fortune-mod-pl-pLug
 Summary:	Fortune mod: pLug
-Summary(pl):	Zestaw fortunek: p≥ug
+Summary(pl.UTF-8):	Zestaw fortunek: p≈Çug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pLug -l pl
-+ p≥ug -- kana≥ #p≥ug: Polish(ed) £yøka Users Group
+%description -n fortune-mod-pl-pLug -l pl.UTF-8
++ p≈Çug -- kana≈Ç #p≈Çug: Polish(ed) ≈Åy≈ºka Users Group
 
 %package -n fortune-mod-pl-puchatek
 Summary:	Fortune mod: puchatek
-Summary(pl):	Zestaw fortunek: puchatek
+Summary(pl.UTF-8):	Zestaw fortunek: puchatek
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-puchatek -l pl
-+ puchatek -- (gdyby kto∂ chcia≥ pododawaÊ co∂ o Misiu...) z anathema.eu.org
+%description -n fortune-mod-pl-puchatek -l pl.UTF-8
++ puchatek -- (gdyby kto≈õ chcia≈Ç pododawaƒá co≈õ o Misiu...) z anathema.eu.org
 
 %package -n fortune-mod-pl-plug
 Summary:	Fortune mod: plug
-Summary(pl):	Zestaw fortunek: plug
+Summary(pl.UTF-8):	Zestaw fortunek: plug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-plug -l pl
-+ plug -- m±dro∂ci z kana≥u #plug, podes≥a≥ Mateusz Golicz
-  <mtg@elsat.net.pl> oraz ogroooomna aktualizacja dziÍki
+%description -n fortune-mod-pl-plug -l pl.UTF-8
++ plug -- mƒÖdro≈õci z kana≈Çu #plug, podes≈Ça≈Ç Mateusz Golicz
+  <mtg@elsat.net.pl> oraz ogroooomna aktualizacja dziƒôki
   Tygrysowi (tygrys@tangerine.dream.art.pl).
 
 %package -n fortune-mod-pl-pldhelp
 Summary:	Fortune mod: pldhelp
-Summary(pl):	Zestaw fortunek: pldhelp
+Summary(pl.UTF-8):	Zestaw fortunek: pldhelp
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pldhelp -l pl
-+ pldhelp -- kana≥ #pldhelp && support
+%description -n fortune-mod-pl-pldhelp -l pl.UTF-8
++ pldhelp -- kana≈Ç #pldhelp && support
 
 %package -n fortune-mod-pl-pingwinaria
 Summary:	Fortune mod: pingwinaria
-Summary(pl):	Zestaw fortunek: pingwinaria
+Summary(pl.UTF-8):	Zestaw fortunek: pingwinaria
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pingwinaria -l pl
-+ pingwinaria -- teksty z PingwinariÛw, zbierane w bojach ;>
+%description -n fortune-mod-pl-pingwinaria -l pl.UTF-8
++ pingwinaria -- teksty z Pingwinari√≥w, zbierane w bojach ;>
 
 %package -n fortune-mod-pl-perl
 Summary:	Fortune mod: perl
-Summary(pl):	Zestaw fortunek: perl
+Summary(pl.UTF-8):	Zestaw fortunek: perl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-perl -l pl
-+ perl -- t≥umaczenie z angielskiego, pochodz± z witryny, ktÛrej adresu
-  nikt juø nie pamiÍta ;-)
+%description -n fortune-mod-pl-perl -l pl.UTF-8
++ perl -- t≈Çumaczenie z angielskiego, pochodzƒÖ z witryny, kt√≥rej adresu
+  nikt ju≈º nie pamiƒôta ;-)
 
 %package -n fortune-mod-pl-pcol
 Summary:	Fortune mod: pcol
-Summary(pl):	Zestaw fortunek: pcol
+Summary(pl.UTF-8):	Zestaw fortunek: pcol
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pcol -l pl
-+ pcol -- z grupy dyskusyjnej pl.comp.os.linux; bardzo wdziÍczne miejsce
+%description -n fortune-mod-pl-pcol -l pl.UTF-8
++ pcol -- z grupy dyskusyjnej pl.comp.os.linux; bardzo wdziƒôczne miejsce
   dla zbieraczy fortunek
 
 %package -n fortune-mod-pl-ospl-ad
 Summary:	Fortune mod: ospl-ad
-Summary(pl):	Zestaw fortunek: ospl-ad
+Summary(pl.UTF-8):	Zestaw fortunek: ospl-ad
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-ospl-ad -l pl
+%description -n fortune-mod-pl-ospl-ad -l pl.UTF-8
 + ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i sygnaturek :-)
 
 %package -n fortune-mod-pl-ospl
 Summary:	Fortune mod: ospl
-Summary(pl):	Zestaw fortunek: ospl
+Summary(pl.UTF-8):	Zestaw fortunek: ospl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-ospl -l pl
-+ ospl -- pewnego dnia grupka ludzi stwierdzi≥a, øe tak dalej byÊ nie
-  moøe ;-) a przy okazji powsta≥a gar∂Ê fortunek
+%description -n fortune-mod-pl-ospl -l pl.UTF-8
++ ospl -- pewnego dnia grupka ludzi stwierdzi≈Ça, ≈ºe tak dalej byƒá nie
+  mo≈ºe ;-) a przy okazji powsta≈Ça gar≈õƒá fortunek
 
 %package -n fortune-mod-pl-nowe
 Summary:	Fortune mod: nowe
-Summary(pl):	Zestaw fortunek: nowe
+Summary(pl.UTF-8):	Zestaw fortunek: nowe
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-nowe -l pl
+%description -n fortune-mod-pl-nowe -l pl.UTF-8
 + nowe -- miejsce na nowe, pojedyncze fortunki
 
 %package -n fortune-mod-pl-nauka
 Summary:	Fortune mod: nauka
-Summary(pl):	Zestaw fortunek: nauka
+Summary(pl.UTF-8):	Zestaw fortunek: nauka
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-nauka -l pl
-+ nauka -- t≥umaczenie z angielskiego, pochodz± z witryny, ktÛrej adresu
-  nikt juø nie pamiÍta ;-)
+%description -n fortune-mod-pl-nauka -l pl.UTF-8
++ nauka -- t≈Çumaczenie z angielskiego, pochodzƒÖ z witryny, kt√≥rej adresu
+  nikt ju≈º nie pamiƒôta ;-)
 
 %package -n fortune-mod-pl-misc
 Summary:	Fortune mod: misc
-Summary(pl):	Zestaw fortunek: misc
+Summary(pl.UTF-8):	Zestaw fortunek: misc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-misc -l pl
-+ misc -- t≥umaczenie z angielskiego, pochodz± z witryny, ktÛrej adresu
-  nikt juø nie pamiÍta ;-)
+%description -n fortune-mod-pl-misc -l pl.UTF-8
++ misc -- t≈Çumaczenie z angielskiego, pochodzƒÖ z witryny, kt√≥rej adresu
+  nikt ju≈º nie pamiƒôta ;-)
 
 %package -n fortune-mod-pl-milosc
 Summary:	Fortune mod: milosc
-Summary(pl):	Zestaw fortunek: milosc
+Summary(pl.UTF-8):	Zestaw fortunek: milosc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-milosc -l pl
+%description -n fortune-mod-pl-milosc -l pl.UTF-8
 + milosc -- wiersze dziewczyny Diabl0 <diabl0@poczta.fm>
 
 %package -n fortune-mod-pl-microsoft
 Summary:	Fortune mod: microsoft
-Summary(pl):	Zestaw fortunek: microsoft
+Summary(pl.UTF-8):	Zestaw fortunek: microsoft
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-microsoft -l pl
-+ microsoft -- t≥umaczenie z angielskiego, pochodz± z witryny, ktÛrej
-  adresu nikt juø nie pamiÍta ;-) plus do∂wiadczenia w≥asne ;-)
+%description -n fortune-mod-pl-microsoft -l pl.UTF-8
++ microsoft -- t≈Çumaczenie z angielskiego, pochodzƒÖ z witryny, kt√≥rej
+  adresu nikt ju≈º nie pamiƒôta ;-) plus do≈õwiadczenia w≈Çasne ;-)
 
 %package -n fortune-mod-pl-matura
 Summary:	Fortune mod: matura
-Summary(pl):	Zestaw fortunek: matura
+Summary(pl.UTF-8):	Zestaw fortunek: matura
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-matura -l pl
-+ matura -- pewniaki na maturÍ oraz teksty z matury ;)
+%description -n fortune-mod-pl-matura -l pl.UTF-8
++ matura -- pewniaki na maturƒô oraz teksty z matury ;)
 
 %package -n fortune-mod-pl-linuxpl
 Summary:	Fortune mod: linuxpl
-Summary(pl):	Zestaw fortunek: linuxpl
+Summary(pl.UTF-8):	Zestaw fortunek: linuxpl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-linuxpl -l pl
-+ linuxpl -- m±dro∂ci z kana≥u #linuxpl, podes≥a≥ Mateusz Golicz
-  <mtg@elsat.net.pl>; nastÍpnie dodano to, co zebra≥ Marcoos
+%description -n fortune-mod-pl-linuxpl -l pl.UTF-8
++ linuxpl -- mƒÖdro≈õci z kana≈Çu #linuxpl, podes≈Ça≈Ç Mateusz Golicz
+  <mtg@elsat.net.pl>; nastƒôpnie dodano to, co zebra≈Ç Marcoos
   <fortune@pertus.com.pl>
 
 %package -n fortune-mod-pl-linuxfr
 Summary:	Fortune mod: linuxfr
-Summary(pl):	Zestaw fortunek: linuxfr
+Summary(pl.UTF-8):	Zestaw fortunek: linuxfr
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-linuxfr -l pl
-+ linuxfr -- kana≥ #linuxfr (?)
+%description -n fortune-mod-pl-linuxfr -l pl.UTF-8
++ linuxfr -- kana≈Ç #linuxfr (?)
 
 %package -n fortune-mod-pl-linux
 Summary:	Fortune mod: linux
-Summary(pl):	Zestaw fortunek: linux
+Summary(pl.UTF-8):	Zestaw fortunek: linux
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-linux -l pl
-+ linux -- t≥umaczenie z angielskiego, pochodz± z witryny, ktÛrej adresu
-  nikt juø nie pamiÍta ;-)
+%description -n fortune-mod-pl-linux -l pl.UTF-8
++ linux -- t≈Çumaczenie z angielskiego, pochodzƒÖ z witryny, kt√≥rej adresu
+  nikt ju≈º nie pamiƒôta ;-)
 
 %package -n fortune-mod-pl-life
 Summary:	Fortune mod: life
-Summary(pl):	Zestaw fortunek: life
+Summary(pl.UTF-8):	Zestaw fortunek: life
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -591,54 +591,54 @@ We are sorry that there is no more useful description,
 but djurban is too lame to add description to the README
 file. Send your requests to djurban@pld-linux.org
 
-%description -n fortune-mod-pl-life -l pl
+%description -n fortune-mod-pl-life -l pl.UTF-8
 Zestaw fortunek: life
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale djurban nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres djurban@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale djurban nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-lcamtuf
 Summary:	Fortune mod: lcamtuf
-Summary(pl):	Zestaw fortunek: lcamtuf
+Summary(pl.UTF-8):	Zestaw fortunek: lcamtuf
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-lcamtuf -l pl
-+ lcamtuf -- co lepsze fragmenty listÛw do lcamtufa oraz msg-Ûw z #hackpl.
+%description -n fortune-mod-pl-lcamtuf -l pl.UTF-8
++ lcamtuf -- co lepsze fragmenty list√≥w do lcamtufa oraz msg-√≥w z #hackpl.
 
 %package -n fortune-mod-pl-koscielne
 Summary:	Fortune mod: koscielne
-Summary(pl):	Zestaw fortunek: koscielne
+Summary(pl.UTF-8):	Zestaw fortunek: koscielne
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-koscielne -l pl
-+ koscielne -- o ko∂ciele 
+%description -n fortune-mod-pl-koscielne -l pl.UTF-8
++ koscielne -- o ko≈õciele 
 
 %package -n fortune-mod-pl-konikbujany
 Summary:	Fortune mod: konikbujany
-Summary(pl):	Zestaw fortunek: konikbujany
+Summary(pl.UTF-8):	Zestaw fortunek: konikbujany
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-konikbujany -l pl
-+ konikbujany -- wypowiedzi cz≥owieka przedstawiaj±cego siÍ jako konikbujany
-  (miÍdzy innymi), bardzo egzotyczna postaÊ; z anathema.eu.org
+%description -n fortune-mod-pl-konikbujany -l pl.UTF-8
++ konikbujany -- wypowiedzi cz≈Çowieka przedstawiajƒÖcego siƒô jako konikbujany
+  (miƒôdzy innymi), bardzo egzotyczna postaƒá; z anathema.eu.org
 
 %package -n fortune-mod-pl-komputery
 Summary:	Fortune mod: komputery
-Summary(pl):	Zestaw fortunek: komputery
+Summary(pl.UTF-8):	Zestaw fortunek: komputery
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-komputery -l pl
-+ komputery -- t≥umaczenie z angielskiego, pochodz± z witryny, ktÛrej
-  adresu nikt juø nie pamiÍta ;-)
+%description -n fortune-mod-pl-komputery -l pl.UTF-8
++ komputery -- t≈Çumaczenie z angielskiego, pochodzƒÖ z witryny, kt√≥rej
+  adresu nikt ju≈º nie pamiƒôta ;-)
 
 %package -n fortune-mod-pl-kernelcookies
 Summary:	Fortune mod: kernelcookies
-Summary(pl):	Zestaw fortunek: kernelcookies
+Summary(pl.UTF-8):	Zestaw fortunek: kernelcookies
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -649,25 +649,25 @@ We are sorry that there is no more useful description,
 but adasi is too lame to add description to the README
 file. Send your requests to adasi@pld-linux.org
 
-%description -n fortune-mod-pl-kernelcookies -l pl
+%description -n fortune-mod-pl-kernelcookies -l pl.UTF-8
 Zestaw fortunek: kernelcookies
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale adasi nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres adasi@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale adasi nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres adasi@pld-linux.org
 
 %package -n fortune-mod-pl-ipv6.pl
 Summary:	Fortune mod: ipv6.pl
-Summary(pl):	Zestaw fortunek: ipv6.pl
+Summary(pl.UTF-8):	Zestaw fortunek: ipv6.pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-ipv6.pl -l pl
-+ ipv6.pl -- fortunki z kana≥u #ipv6.pl
+%description -n fortune-mod-pl-ipv6.pl -l pl.UTF-8
++ ipv6.pl -- fortunki z kana≈Çu #ipv6.pl
 
 %package -n fortune-mod-pl-icpusers
 Summary:	Fortune mod: icpusers
-Summary(pl):	Zestaw fortunek: icpusers
+Summary(pl.UTF-8):	Zestaw fortunek: icpusers
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -678,54 +678,54 @@ We are sorry that there is no more useful description,
 but waszi is too lame to add description to the README
 file. Send your requests to waszi@pld-linux.org
 
-%description -n fortune-mod-pl-icpusers -l pl
+%description -n fortune-mod-pl-icpusers -l pl.UTF-8
 Zestaw fortunek: icpusers
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale waszi nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres waszi@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale waszi nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres waszi@pld-linux.org
 
 %package -n fortune-mod-pl-http
 Summary:	Fortune mod: http
-Summary(pl):	Zestaw fortunek: http
+Summary(pl.UTF-8):	Zestaw fortunek: http
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-http -l pl
-+ http -- a co by by≥o, gdyby kobiety by≥y serwerami http?
+%description -n fortune-mod-pl-http -l pl.UTF-8
++ http -- a co by by≈Ço, gdyby kobiety by≈Çy serwerami http?
 
 %package -n fortune-mod-pl-haiku
 Summary:	Fortune mod: haiku
-Summary(pl):	Zestaw fortunek: haiku
+Summary(pl.UTF-8):	Zestaw fortunek: haiku
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-haiku -l pl
-+ haiku -- ºrÛd≥o nieznane
+%description -n fortune-mod-pl-haiku -l pl.UTF-8
++ haiku -- ≈∫r√≥d≈Ço nieznane
 
 %package -n fortune-mod-pl-gra_polslowek
 Summary:	Fortune mod: gra_polslowek
-Summary(pl):	Zestaw fortunek: gra_polslowek
+Summary(pl.UTF-8):	Zestaw fortunek: gra_polslowek
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-gra_polslowek -l pl
-+ gra_polslowek -- gra polega na zamianie miejscami DUØYCH liter w krÛtkich
-  zdaniach (na przyk≥ad: Gra pÛ≥S≥Ûwek -> Sra pÛ≥G≥Ûwek)
+%description -n fortune-mod-pl-gra_polslowek -l pl.UTF-8
++ gra_polslowek -- gra polega na zamianie miejscami DU≈ªYCH liter w kr√≥tkich
+  zdaniach (na przyk≈Çad: Gra p√≥≈ÇS≈Ç√≥wek -> Sra p√≥≈ÇG≈Ç√≥wek)
 
 %package -n fortune-mod-pl-dwimc
 Summary:	Fortune mod: dwimc
-Summary(pl):	Zestaw fortunek: dwimc
+Summary(pl.UTF-8):	Zestaw fortunek: dwimc
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dwimc -l pl
-+ dwimc -- cycaty w t≥umaczeniu polskim (Yagoda) z filmu "Stary, gdzie jest
+%description -n fortune-mod-pl-dwimc -l pl.UTF-8
++ dwimc -- cycaty w t≈Çumaczeniu polskim (Yagoda) z filmu "Stary, gdzie jest
   moja bryka ?!"
 
 %package -n fortune-mod-pl-pld-fork
 Summary:	Fortune mod: pld-fork
-Summary(pl):	Zestaw fortunek: pld-fork
+Summary(pl.UTF-8):	Zestaw fortunek: pld-fork
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -736,62 +736,62 @@ We are sorry that there is no more useful description,
 but adamg is too lame to add description to the README
 file. Send your requests to adamg@pld-linux.org
 
-%description -n fortune-mod-pl-pld-fork -l pl
+%description -n fortune-mod-pl-pld-fork -l pl.UTF-8
 Zestaw fortunek: pld-fork
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale adamg nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres adamg@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale adamg nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres adamg@pld-linux.org
 
 %package -n fortune-mod-pl-dowcipy-feministyczne
 Summary:	Fortune mod: dowcipy-feministyczne
-Summary(pl):	Zestaw fortunek: dowcipy-feministyczne
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-feministyczne
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy-feministyczne -l pl
+%description -n fortune-mod-pl-dowcipy-feministyczne -l pl.UTF-8
 + dowcipy-feministyczne -- sam feminizm
 
 %package -n fortune-mod-pl-djurban
 Summary:	Fortune mod: djurban
-Summary(pl):	Zestaw fortunek: djurban
+Summary(pl.UTF-8):	Zestaw fortunek: djurban
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-djurban -l pl
-+ djurban -- m±dro∂ci djurbana
+%description -n fortune-mod-pl-djurban -l pl.UTF-8
++ djurban -- mƒÖdro≈õci djurbana
 
 %package -n fortune-mod-pl-cows
 Summary:	Fortune mod: cows
-Summary(pl):	Zestaw fortunek: cows
+Summary(pl.UTF-8):	Zestaw fortunek: cows
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-cows -l pl
+%description -n fortune-mod-pl-cows -l pl.UTF-8
 + cows -- wariacje na temat cowsay
 
 %package -n fortune-mod-pl-cnp
 Summary:	Fortune mod: cnp
-Summary(pl):	Zestaw fortunek: cnp
+Summary(pl.UTF-8):	Zestaw fortunek: cnp
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-cnp -l pl
-+ cnp -- cytaty z filmu "Ch≥opaki nie p≥acz±"
+%description -n fortune-mod-pl-cnp -l pl.UTF-8
++ cnp -- cytaty z filmu "Ch≈Çopaki nie p≈ÇaczƒÖ"
 
 %package -n fortune-mod-pl-bok
 Summary:	Fortune mod: bok
-Summary(pl):	Zestaw fortunek: bok
+Summary(pl.UTF-8):	Zestaw fortunek: bok
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-bok -l pl
-+ bok -- teksty z rÛønych Biur Obs≥ugi Klienta, sklepÛw komputerowych itp,
-         generalnie PMKAK (Problem MiÍdzy Krzes≥em A Komputerem) :)
+%description -n fortune-mod-pl-bok -l pl.UTF-8
++ bok -- teksty z r√≥≈ºnych Biur Obs≈Çugi Klienta, sklep√≥w komputerowych itp,
+         generalnie PMKAK (Problem Miƒôdzy Krzes≈Çem A Komputerem) :)
 
 %package -n fortune-mod-pl-bocian_gate
 Summary:	Fortune mod: bocian_gate
-Summary(pl):	Zestaw fortunek: bocian_gate
+Summary(pl.UTF-8):	Zestaw fortunek: bocian_gate
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -802,90 +802,90 @@ We are sorry that there is no more useful description,
 but djurban is too lame to add description to the README
 file. Send your requests to djurban@pld-linux.org
 
-%description -n fortune-mod-pl-bocian_gate -l pl
+%description -n fortune-mod-pl-bocian_gate -l pl.UTF-8
 Zestaw fortunek: bocian_gate
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale djurban nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres djurban@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale djurban nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-dzieci
 Summary:	Fortune mod: dzieci
-Summary(pl):	Zestaw fortunek: dzieci
+Summary(pl.UTF-8):	Zestaw fortunek: dzieci
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dzieci -l pl
+%description -n fortune-mod-pl-dzieci -l pl.UTF-8
 + dzieci -- ... w oczach dzieci
 
 %package -n fortune-mod-pl-blug
 Summary:	Fortune mod: blug
-Summary(pl):	Zestaw fortunek: blug
+Summary(pl.UTF-8):	Zestaw fortunek: blug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-blug -l pl
-+ blug -- wypowiedzi cz≥onkÛw Bydgoszcz Linux Users Group wychwycone z #blug
+%description -n fortune-mod-pl-blug -l pl.UTF-8
++ blug -- wypowiedzi cz≈Çonk√≥w Bydgoszcz Linux Users Group wychwycone z #blug
 
 %package -n fortune-mod-pl-baseciq
 Summary:	Fortune mod: baseciq
-Summary(pl):	Zestaw fortunek: baseciq
+Summary(pl.UTF-8):	Zestaw fortunek: baseciq
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-baseciq -l pl
-+ baseciq -- <@Baseciq> cÛø, wiem øe jak co∂ czasami jebnÍ jak±∂ bzdurÍ
-  to pÛ≥ polski ma ubaw.
+%description -n fortune-mod-pl-baseciq -l pl.UTF-8
++ baseciq -- <@Baseciq> c√≥≈º, wiem ≈ºe jak co≈õ czasami jebnƒô jakƒÖ≈õ bzdurƒô
+  to p√≥≈Ç polski ma ubaw.
 
 %package -n fortune-mod-pl-bajki
 Summary:	Fortune mod: bajki
-Summary(pl):	Zestaw fortunek: bajki
+Summary(pl.UTF-8):	Zestaw fortunek: bajki
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-bajki -l pl
-+ bajki -- bajki o nale∂niku, powid≥ach, kapu∂cie, w±trÛbce, pantofelku...
+%description -n fortune-mod-pl-bajki -l pl.UTF-8
++ bajki -- bajki o nale≈õniku, powid≈Çach, kapu≈õcie, wƒÖtr√≥bce, pantofelku...
 
 %package -n fortune-mod-pl-argante
 Summary:	Fortune mod: argante
-Summary(pl):	Zestaw fortunek: argante
+Summary(pl.UTF-8):	Zestaw fortunek: argante
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-argante -l pl
+%description -n fortune-mod-pl-argante -l pl.UTF-8
 + argante -- cytaty z listy mailingowej projektu argante (www.argante.org)
-  i kana≥u #argante
+  i kana≈Çu #argante
 
 %package -n fortune-mod-pl-apcoh
 Summary:	Fortune mod: apcoh
-Summary(pl):	Zestaw fortunek: apcoh
+Summary(pl.UTF-8):	Zestaw fortunek: apcoh
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-apcoh -l pl
+%description -n fortune-mod-pl-apcoh -l pl.UTF-8
 + apcoh -- najbardziej abstrakcyjne z alt.pl.comp.os.hacking
 
 %package -n fortune-mod-pl-adamg
 Summary:	Fortune mod: adamg
-Summary(pl):	Zestaw fortunek: adamg
+Summary(pl.UTF-8):	Zestaw fortunek: adamg
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-adamg -l pl
-+ adamg -- m±dro∂ci Adama Go≥Íbiowskiego
+%description -n fortune-mod-pl-adamg -l pl.UTF-8
++ adamg -- mƒÖdro≈õci Adama Go≈Çƒôbiowskiego
 
 %package -n fortune-mod-pl-znaki_zodiaku
 Summary:	Fortune mod: znaki_zodiaku
-Summary(pl):	Zestaw fortunek: znaki_zodiaku
+Summary(pl.UTF-8):	Zestaw fortunek: znaki_zodiaku
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-znaki_zodiaku -l pl
-+ znaki_zodiaku -- horoskop na kaød± okazjÍ autorstwa Stanis≥awa Tyma
+%description -n fortune-mod-pl-znaki_zodiaku -l pl.UTF-8
++ znaki_zodiaku -- horoskop na ka≈ºdƒÖ okazjƒô autorstwa Stanis≈Çawa Tyma
 
 %package -n fortune-mod-pl-7thguard
 Summary:	Fortune mod: 7thguard
-Summary(pl):	Zestaw fortunek: 7thguard
+Summary(pl.UTF-8):	Zestaw fortunek: 7thguard
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -896,16 +896,16 @@ We are sorry that there is no more useful description,
 but arturs is too lame to add description to the README
 file. Send your requests to arturs@pld-linux.org
 
-%description -n fortune-mod-pl-7thguard -l pl
+%description -n fortune-mod-pl-7thguard -l pl.UTF-8
 Zestaw fortunek: 7thguard
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale arturs nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres arturs@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale arturs nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres arturs@pld-linux.org
 
 %package -n fortune-mod-pl-10-przykazan-dewelopera-PLD
 Summary:	Fortune mod: 10-przykazan-dewelopera-PLD
-Summary(pl):	Zestaw fortunek: 10-przykazan-dewelopera-PLD
+Summary(pl.UTF-8):	Zestaw fortunek: 10-przykazan-dewelopera-PLD
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -916,34 +916,34 @@ We are sorry that there is no more useful description,
 but djrzulf is too lame to add description to the README
 file. Send your requests to djrzulf@pld-linux.org
 
-%description -n fortune-mod-pl-10-przykazan-dewelopera-PLD -l pl
+%description -n fortune-mod-pl-10-przykazan-dewelopera-PLD -l pl.UTF-8
 Zestaw fortunek: 10-przykazan-dewelopera-PLD
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale djrzulf nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres djrzulf@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale djrzulf nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres djrzulf@pld-linux.org
 
 %package -n fortune-mod-pl-zen
 Summary:	Fortune mod: zen
-Summary(pl):	Zestaw fortunek: zen
+Summary(pl.UTF-8):	Zestaw fortunek: zen
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-zen -l pl
+%description -n fortune-mod-pl-zen -l pl.UTF-8
 + zen -- buddyzm zen
 
 %package -n fortune-mod-pl-wieza-pilot
 Summary:	Fortune mod: wieza-pilot
-Summary(pl):	Zestaw fortunek: wieza-pilot
+Summary(pl.UTF-8):	Zestaw fortunek: wieza-pilot
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-wieza-pilot -l pl
-+ wieza-pilot -- rozmowy wieøa-pilot
+%description -n fortune-mod-pl-wieza-pilot -l pl.UTF-8
++ wieza-pilot -- rozmowy wie≈ºa-pilot
 
 %package -n fortune-mod-pl-newyear
 Summary:	Fortune mod: newyear
-Summary(pl):	Zestaw fortunek: newyear
+Summary(pl.UTF-8):	Zestaw fortunek: newyear
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -954,35 +954,35 @@ We are sorry that there is no more useful description,
 but agaran is too lame to add description to the README
 file. Send your requests to agaran@pld-linux.org
 
-%description -n fortune-mod-pl-newyear -l pl
+%description -n fortune-mod-pl-newyear -l pl.UTF-8
 Zestaw fortunek: newyear
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale agaran nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres agaran@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale agaran nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres agaran@pld-linux.org
 
 %package -n fortune-mod-pl-pplug
 Summary:	Fortune mod: pplug
-Summary(pl):	Zestaw fortunek: pplug
+Summary(pl.UTF-8):	Zestaw fortunek: pplug
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pplug -l pl
-+ pplug -- nieoficjalny kanal nieistniej±cego PoznaÒskiego PLUG-a
+%description -n fortune-mod-pl-pplug -l pl.UTF-8
++ pplug -- nieoficjalny kanal nieistniejƒÖcego Pozna≈Ñskiego PLUG-a
 
 %package -n fortune-mod-pl-pld
 Summary:	Fortune mod: pld
-Summary(pl):	Zestaw fortunek: pld
+Summary(pl.UTF-8):	Zestaw fortunek: pld
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pld -l pl
-+ pld -- chodzi oczywi∂cie o wypowiedzi politykÛw z Porozumienia Ludowo -
+%description -n fortune-mod-pl-pld -l pl.UTF-8
++ pld -- chodzi oczywi≈õcie o wypowiedzi polityk√≥w z Porozumienia Ludowo -
   Demokratycznego ;-p
 
 %package -n fortune-mod-pl-irc
 Summary:	Fortune mod: irc
-Summary(pl):	Zestaw fortunek: irc
+Summary(pl.UTF-8):	Zestaw fortunek: irc
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -993,34 +993,34 @@ We are sorry that there is no more useful description,
 but djurban is too lame to add description to the README
 file. Send your requests to djurban@pld-linux.org
 
-%description -n fortune-mod-pl-irc -l pl
+%description -n fortune-mod-pl-irc -l pl.UTF-8
 Zestaw fortunek: irc
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale djurban nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres djurban@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale djurban nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-dowcipy
 Summary:	Fortune mod: dowcipy
-Summary(pl):	Zestaw fortunek: dowcipy
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-dowcipy -l pl
-+ dowcipy -- tego chyba nie trzeba opisywaÊ
+%description -n fortune-mod-pl-dowcipy -l pl.UTF-8
++ dowcipy -- tego chyba nie trzeba opisywaƒá
 
 %package -n fortune-mod-pl-radio_maryja
 Summary:	Fortune mod: radio_maryja
-Summary(pl):	Zestaw fortunek: radio_maryja
+Summary(pl.UTF-8):	Zestaw fortunek: radio_maryja
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-radio_maryja -l pl
+%description -n fortune-mod-pl-radio_maryja -l pl.UTF-8
 + radio_maryja -- apolityczne radio maryja
 
 %package -n fortune-mod-pl-stirlitz
 Summary:	Fortune mod: stirlitz
-Summary(pl):	Zestaw fortunek: stirlitz
+Summary(pl.UTF-8):	Zestaw fortunek: stirlitz
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1031,21 +1031,21 @@ We are sorry that there is no more useful description,
 but leafnode is too lame to add description to the README
 file. Send your requests to leafnode@pld-linux.org
 
-%description -n fortune-mod-pl-stirlitz -l pl
+%description -n fortune-mod-pl-stirlitz -l pl.UTF-8
 Zestaw fortunek: stirlitz
 
-Przykro nam, øe nie ma bardziej dok≥adnego opisu,
-ale leafnode nie potrafi dodaÊ opisu do pliku README.
-Pro∂by prosimy kierowaÊ na adres leafnode@pld-linux.org
+Przykro nam, ≈ºe nie ma bardziej dok≈Çadnego opisu,
+ale leafnode nie potrafi dodaƒá opisu do pliku README.
+Pro≈õby prosimy kierowaƒá na adres leafnode@pld-linux.org
 
 %package -n fortune-mod-pl-pratchett
 Summary:	Fortune mod: pratchett
-Summary(pl):	Zestaw fortunek: pratchett
+Summary(pl.UTF-8):	Zestaw fortunek: pratchett
 Group:		Applications/Games
 Requires:	fortune-mod
 
-%description -n fortune-mod-pl-pratchett -l pl
-+ pratchett -- cytaty z Terry'ego Pratchetta (t≥. w wiÍkszo∂ci P.W. Cholewa)
+%description -n fortune-mod-pl-pratchett -l pl.UTF-8
++ pratchett -- cytaty z Terry'ego Pratchetta (t≈Ç. w wiƒôkszo≈õci P.W. Cholewa)
 
 %prep
 %setup -q
