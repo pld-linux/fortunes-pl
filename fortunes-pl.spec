@@ -1,6 +1,5 @@
-#
-# THIS IS GENERATED FILE. DO NOT EDIT BY HAND.
-# screw you, fix the generation!
+# TODO
+# - add missing english descriptions
 #
 # If you want to modify or regenerate it use script from CVS:
 # fortunes-pl/SPEC/*
@@ -15,8 +14,8 @@ Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	fe82e2192bd3b2833638fb20ea7b4827
 BuildRequires:	fortune-mod >= 1.0-13
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Fortune-mod contains the ever-popular fortune program. Want a little
