@@ -1049,14 +1049,20 @@ Requires:	fortune-mod
 
 %prep
 %setup -q
+mv $(echo -e "p\0263ug") pLug
+mv $(echo -e "p\0263ug-slc2001") plug-slc2001
+
+rm -f skrypt.awk
+
+%build
+for i in *; do
+	strfile $i
+done
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-for i in *; do
-	strfile $i
-	install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-done;
+cp -a . $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -1208,13 +1214,13 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n fortune-mod-pl-plug-slc2001
 %defattr(644,root,root,755)
-%{_datadir}/games/fortunes/p³ug-slc2001
-%{_datadir}/games/fortunes/p³ug-slc2001.dat
+%{_datadir}/games/fortunes/plug-slc2001
+%{_datadir}/games/fortunes/plug-slc2001.dat
 
 %files -n fortune-mod-pl-pLug
 %defattr(644,root,root,755)
-%{_datadir}/games/fortunes/p³ug
-%{_datadir}/games/fortunes/p³ug.dat
+%{_datadir}/games/fortunes/pLug
+%{_datadir}/games/fortunes/pLug.dat
 
 %files -n fortune-mod-pl-puchatek
 %defattr(644,root,root,755)
