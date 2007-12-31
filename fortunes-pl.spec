@@ -1053,10 +1053,9 @@ Requires:	fortune-mod
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-for i in *;
-do
- strfile $i;
- install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
+for i in *; do
+	strfile $i
+	install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 done;
 
 %clean
