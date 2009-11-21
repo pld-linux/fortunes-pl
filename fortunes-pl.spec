@@ -10,11 +10,11 @@ Summary:	Collection of Polish Fortunes
 Summary(pl.UTF-8):	Zbiór polskich fortunek
 Name:		fortunes-pl
 Version:	20091121
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Games
 Source0:	http://xatka.net/~z/PLD/%{name}-%{version}.tar.bz2
-# Source0-md5:	0dcd6613f4d80f02924cbfcd7049aad7
+# Source0-md5:	afa3e19d0d1340ee1e321b5ca218fb40
 BuildRequires:	fortune-mod >= 1.0-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
