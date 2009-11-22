@@ -45,7 +45,7 @@ Ten pakiet zawiera kolekcję polskich fortunek z cvs.pld-linux.org
 
 %package -n fortune-mod-pl-bok
 Summary:	Fortune mod: bok
-Summary(pl):	Zestaw fortunek: bok
+Summary(pl.UTF-8):	Zestaw fortunek: bok
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -55,7 +55,7 @@ itp, generalnie PMKAK (Problem Między Krzesłem A Komputerem) :)
 
 %package -n fortune-mod-pl-cnp
 Summary:	Fortune mod: cnp
-Summary(pl):	Zestaw fortunek: cnp
+Summary(pl.UTF-8):	Zestaw fortunek: cnp
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -64,7 +64,7 @@ cnp -- cytaty z filmu "Chłopaki nie płaczą"
 
 %package -n fortune-mod-pl-irc
 Summary:	Fortune mod: irc
-Summary(pl):	Zestaw fortunek: irc
+Summary(pl.UTF-8):	Zestaw fortunek: irc
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -84,7 +84,7 @@ djurban@pld-linux.org
 
 %package -n fortune-mod-pl-pld
 Summary:	Fortune mod: pld
-Summary(pl):	Zestaw fortunek: pld
+Summary(pl.UTF-8):	Zestaw fortunek: pld
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -94,7 +94,7 @@ pld -- chodzi oczywiście o wypowiedzi polityków z Porozumienia Ludowo
 
 %package -n fortune-mod-pl-sad
 Summary:	Fortune mod: sad
-Summary(pl):	Zestaw fortunek: sad
+Summary(pl.UTF-8):	Zestaw fortunek: sad
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -105,7 +105,7 @@ opublikowane przez reporterów sądowych.
 
 %package -n fortune-mod-pl-zen
 Summary:	Fortune mod: zen
-Summary(pl):	Zestaw fortunek: zen
+Summary(pl.UTF-8):	Zestaw fortunek: zen
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -114,7 +114,7 @@ zen -- buddyzm zen
 
 %package -n fortune-mod-pl-blug
 Summary:	Fortune mod: blug
-Summary(pl):	Zestaw fortunek: blug
+Summary(pl.UTF-8):	Zestaw fortunek: blug
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -124,7 +124,7 @@ blug -- wypowiedzi członków Bydgoszcz Linux Users Group wychwycone z
 
 %package -n fortune-mod-pl-cows
 Summary:	Fortune mod: cows
-Summary(pl):	Zestaw fortunek: cows
+Summary(pl.UTF-8):	Zestaw fortunek: cows
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -133,7 +133,7 @@ cows -- wariacje na temat cowsay
 
 %package -n fortune-mod-pl-http
 Summary:	Fortune mod: http
-Summary(pl):	Zestaw fortunek: http
+Summary(pl.UTF-8):	Zestaw fortunek: http
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -142,7 +142,7 @@ http -- a co by było, gdyby kobiety były serwerami http?
 
 %package -n fortune-mod-pl-life
 Summary:	Fortune mod: life
-Summary(pl):	Zestaw fortunek: life
+Summary(pl.UTF-8):	Zestaw fortunek: life
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -162,7 +162,7 @@ djurban@pld-linux.org
 
 %package -n fortune-mod-pl-misc
 Summary:	Fortune mod: misc
-Summary(pl):	Zestaw fortunek: misc
+Summary(pl.UTF-8):	Zestaw fortunek: misc
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -172,7 +172,7 @@ nikt już nie pamięta ;-)
 
 %package -n fortune-mod-pl-pLug
 Summary:	Fortune mod: pLug
-Summary(pl):	Zestaw fortunek: pLug
+Summary(pl.UTF-8):	Zestaw fortunek: pLug
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -181,7 +181,7 @@ pLug -- kanał #pług: Polish(ed) Łyżka Users Group
 
 %package -n fortune-mod-pl-nowe
 Summary:	Fortune mod: nowe
-Summary(pl):	Zestaw fortunek: nowe
+Summary(pl.UTF-8):	Zestaw fortunek: nowe
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -190,7 +190,7 @@ nowe -- miejsce na nowe, pojedyncze fortunki
 
 %package -n fortune-mod-pl-pcol
 Summary:	Fortune mod: pcol
-Summary(pl):	Zestaw fortunek: pcol
+Summary(pl.UTF-8):	Zestaw fortunek: pcol
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -200,7 +200,7 @@ dla zbieraczy fortunek
 
 %package -n fortune-mod-pl-perl
 Summary:	Fortune mod: perl
-Summary(pl):	Zestaw fortunek: perl
+Summary(pl.UTF-8):	Zestaw fortunek: perl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -210,7 +210,7 @@ nikt już nie pamięta ;-)
 
 %package -n fortune-mod-pl-ospl
 Summary:	Fortune mod: ospl
-Summary(pl):	Zestaw fortunek: ospl
+Summary(pl.UTF-8):	Zestaw fortunek: ospl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -220,7 +220,7 @@ może ;-) a przy okazji powstała garść fortunek
 
 %package -n fortune-mod-pl-plug
 Summary:	Fortune mod: plug
-Summary(pl):	Zestaw fortunek: plug
+Summary(pl.UTF-8):	Zestaw fortunek: plug
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -231,7 +231,7 @@ plug -- mądrości z kanału #plug, podesłał Mateusz Golicz
 
 %package -n fortune-mod-pl-psy1
 Summary:	Fortune mod: psy1
-Summary(pl):	Zestaw fortunek: psy1
+Summary(pl.UTF-8):	Zestaw fortunek: psy1
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -240,7 +240,7 @@ psy1 -- cytaty z Psów Pasikowskiego
 
 %package -n fortune-mod-pl-dowcipy-niskopoziomowe
 Summary:	Fortune mod: dowcipy-niskopoziomowe
-Summary(pl):	Zestaw fortunek: dowcipy-niskopoziomowe
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-niskopoziomowe
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -249,7 +249,7 @@ dowcipy-niskopoziomowe -- dowcipy kategorii B
 
 %package -n fortune-mod-pl-pamietnik_policjanta
 Summary:	Fortune mod: pamietnik_policjanta
-Summary(pl):	Zestaw fortunek: pamietnik_policjanta
+Summary(pl.UTF-8):	Zestaw fortunek: pamietnik_policjanta
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -269,7 +269,7 @@ undefine@pld-linux.org
 
 %package -n fortune-mod-pl-puchatek
 Summary:	Fortune mod: puchatek
-Summary(pl):	Zestaw fortunek: puchatek
+Summary(pl.UTF-8):	Zestaw fortunek: puchatek
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -279,7 +279,7 @@ anathema.eu.org
 
 %package -n fortune-mod-pl-kloczkish
 Summary:	Fortune mod: kloczkish
-Summary(pl):	Zestaw fortunek: kloczkish
+Summary(pl.UTF-8):	Zestaw fortunek: kloczkish
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -288,7 +288,7 @@ kloczkish -- cytaty z Tomasza Kłoczko
 
 %package -n fortune-mod-pl-debian.pl
 Summary:	Fortune mod: debian.pl
-Summary(pl):	Zestaw fortunek: debian.pl
+Summary(pl.UTF-8):	Zestaw fortunek: debian.pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -297,7 +297,7 @@ debian.pl -- fortunki z kanału #debian
 
 %package -n fortune-mod-pl-adamg
 Summary:	Fortune mod: adamg
-Summary(pl):	Zestaw fortunek: adamg
+Summary(pl.UTF-8):	Zestaw fortunek: adamg
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -306,7 +306,7 @@ adamg -- mądrości Adama Gołębiowskiego
 
 %package -n fortune-mod-pl-bajki
 Summary:	Fortune mod: bajki
-Summary(pl):	Zestaw fortunek: bajki
+Summary(pl.UTF-8):	Zestaw fortunek: bajki
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -316,7 +316,7 @@ pantofelku...
 
 %package -n fortune-mod-pl-apcoh
 Summary:	Fortune mod: apcoh
-Summary(pl):	Zestaw fortunek: apcoh
+Summary(pl.UTF-8):	Zestaw fortunek: apcoh
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -325,7 +325,7 @@ apcoh -- najbardziej abstrakcyjne z alt.pl.comp.os.hacking
 
 %package -n fortune-mod-pl-djurban
 Summary:	Fortune mod: djurban
-Summary(pl):	Zestaw fortunek: djurban
+Summary(pl.UTF-8):	Zestaw fortunek: djurban
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -334,7 +334,7 @@ djurban -- mądrości djurbana
 
 %package -n fortune-mod-pl-dwimc
 Summary:	Fortune mod: dwimc
-Summary(pl):	Zestaw fortunek: dwimc
+Summary(pl.UTF-8):	Zestaw fortunek: dwimc
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -344,7 +344,7 @@ jest moja bryka ?!"
 
 %package -n fortune-mod-pl-haiku
 Summary:	Fortune mod: haiku
-Summary(pl):	Zestaw fortunek: haiku
+Summary(pl.UTF-8):	Zestaw fortunek: haiku
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -353,7 +353,7 @@ haiku -- źródło nieznane
 
 %package -n fortune-mod-pl-linux
 Summary:	Fortune mod: linux
-Summary(pl):	Zestaw fortunek: linux
+Summary(pl.UTF-8):	Zestaw fortunek: linux
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -363,7 +363,7 @@ nikt już nie pamięta ;-)
 
 %package -n fortune-mod-pl-nauka
 Summary:	Fortune mod: nauka
-Summary(pl):	Zestaw fortunek: nauka
+Summary(pl.UTF-8):	Zestaw fortunek: nauka
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -373,7 +373,7 @@ nikt już nie pamięta ;-)
 
 %package -n fortune-mod-pl-pplug
 Summary:	Fortune mod: pplug
-Summary(pl):	Zestaw fortunek: pplug
+Summary(pl.UTF-8):	Zestaw fortunek: pplug
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -382,7 +382,7 @@ pplug -- nieoficjalny kanal nieistniejącego Poznańskiego PLUG-a
 
 %package -n fortune-mod-pl-sigpl
 Summary:	Fortune mod: sigpl
-Summary(pl):	Zestaw fortunek: sigpl
+Summary(pl.UTF-8):	Zestaw fortunek: sigpl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -392,7 +392,7 @@ sigpl -- polskie sygnaturki ze strony Łukasza Kowalczyka
 
 %package -n fortune-mod-pl-sport
 Summary:	Fortune mod: sport
-Summary(pl):	Zestaw fortunek: sport
+Summary(pl.UTF-8):	Zestaw fortunek: sport
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -401,7 +401,7 @@ sport -- komentatorzy sportowi mówią szybciej, niż myślą
 
 %package -n fortune-mod-pl-lcamtuf
 Summary:	Fortune mod: lcamtuf
-Summary(pl):	Zestaw fortunek: lcamtuf
+Summary(pl.UTF-8):	Zestaw fortunek: lcamtuf
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -411,7 +411,7 @@ lcamtuf -- co lepsze fragmenty listów do lcamtufa oraz msg-ów z
 
 %package -n fortune-mod-pl-dowcipy-feministyczne
 Summary:	Fortune mod: dowcipy-feministyczne
-Summary(pl):	Zestaw fortunek: dowcipy-feministyczne
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-feministyczne
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -420,7 +420,7 @@ dowcipy-feministyczne -- sam feminizm
 
 %package -n fortune-mod-pl-sigvirus
 Summary:	Fortune mod: sigvirus
-Summary(pl):	Zestaw fortunek: sigvirus
+Summary(pl.UTF-8):	Zestaw fortunek: sigvirus
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -430,7 +430,7 @@ adresu nikt już nie pamięta ;-)
 
 %package -n fortune-mod-pl-kernelcookies
 Summary:	Fortune mod: kernelcookies
-Summary(pl):	Zestaw fortunek: kernelcookies
+Summary(pl.UTF-8):	Zestaw fortunek: kernelcookies
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -450,7 +450,7 @@ adasi@pld-linux.org
 
 %package -n fortune-mod-pl-jogger_pl
 Summary:	Fortune mod: jogger_pl
-Summary(pl):	Zestaw fortunek: jogger_pl
+Summary(pl.UTF-8):	Zestaw fortunek: jogger_pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -470,7 +470,7 @@ jpc@pld-linux.org
 
 %package -n fortune-mod-pl-dowcipy
 Summary:	Fortune mod: dowcipy
-Summary(pl):	Zestaw fortunek: dowcipy
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -479,7 +479,7 @@ dowcipy -- tego chyba nie trzeba opisywać
 
 %package -n fortune-mod-pl-polish_manpages
 Summary:	Fortune mod: polish_manpages
-Summary(pl):	Zestaw fortunek: polish_manpages
+Summary(pl.UTF-8):	Zestaw fortunek: polish_manpages
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -488,7 +488,7 @@ polish_manpages -- polskie tłumaczenia bywają tak zabawne, jak żałosne
 
 %package -n fortune-mod-pl-testnaosobowosc
 Summary:	Fortune mod: testnaosobowosc
-Summary(pl):	Zestaw fortunek: testnaosobowosc
+Summary(pl.UTF-8):	Zestaw fortunek: testnaosobowosc
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -497,7 +497,7 @@ testnaosobowosc -- jestem jaki jestem
 
 %package -n fortune-mod-pl-rywingate
 Summary:	Fortune mod: rywingate
-Summary(pl):	Zestaw fortunek: rywingate
+Summary(pl.UTF-8):	Zestaw fortunek: rywingate
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -506,7 +506,7 @@ rywingate -- trochę tekstów od komisji śledczej
 
 %package -n fortune-mod-pl-linuxfr
 Summary:	Fortune mod: linuxfr
-Summary(pl):	Zestaw fortunek: linuxfr
+Summary(pl.UTF-8):	Zestaw fortunek: linuxfr
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -515,7 +515,7 @@ linuxfr -- kanał #linuxfr (?)
 
 %package -n fortune-mod-pl-linuxpl
 Summary:	Fortune mod: linuxpl
-Summary(pl):	Zestaw fortunek: linuxpl
+Summary(pl.UTF-8):	Zestaw fortunek: linuxpl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -526,7 +526,7 @@ linuxpl -- mądrości z kanału #linuxpl, podesłał Mateusz Golicz
 
 %package -n fortune-mod-pl-pingwinaria
 Summary:	Fortune mod: pingwinaria
-Summary(pl):	Zestaw fortunek: pingwinaria
+Summary(pl.UTF-8):	Zestaw fortunek: pingwinaria
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -535,7 +535,7 @@ pingwinaria -- teksty z Pingwinariów, zbierane w bojach ;>
 
 %package -n fortune-mod-pl-dowcipy-szowinistyczne
 Summary:	Fortune mod: dowcipy-szowinistyczne
-Summary(pl):	Zestaw fortunek: dowcipy-szowinistyczne
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-szowinistyczne
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -544,7 +544,7 @@ dowcipy-szowinistyczne -- to, co faceci lubią najbardziej
 
 %package -n fortune-mod-pl-slogany
 Summary:	Fortune mod: slogany
-Summary(pl):	Zestaw fortunek: slogany
+Summary(pl.UTF-8):	Zestaw fortunek: slogany
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -554,7 +554,7 @@ przenieść tutaj, podesłał Marcin Rzewucki <marcinr@linuxpl.org>
 
 %package -n fortune-mod-pl-slownik
 Summary:	Fortune mod: slownik
-Summary(pl):	Zestaw fortunek: slownik
+Summary(pl.UTF-8):	Zestaw fortunek: slownik
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -563,7 +563,7 @@ slownik -- słownik polsko-światowy
 
 %package -n fortune-mod-pl-x-avalon
 Summary:	Fortune mod: x-avalon
-Summary(pl):	Zestaw fortunek: x-avalon
+Summary(pl.UTF-8):	Zestaw fortunek: x-avalon
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -583,7 +583,7 @@ djurban@pld-linux.org
 
 %package -n fortune-mod-pl-icpusers
 Summary:	Fortune mod: icpusers
-Summary(pl):	Zestaw fortunek: icpusers
+Summary(pl.UTF-8):	Zestaw fortunek: icpusers
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -603,7 +603,7 @@ waszi@pld-linux.org
 
 %package -n fortune-mod-pl-rzewski
 Summary:	Fortune mod: rzewski
-Summary(pl):	Zestaw fortunek: rzewski
+Summary(pl.UTF-8):	Zestaw fortunek: rzewski
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -612,7 +612,7 @@ rzewski -- historie z życia porucznika Rżewskiego
 
 %package -n fortune-mod-pl-bocian_gate
 Summary:	Fortune mod: bocian_gate
-Summary(pl):	Zestaw fortunek: bocian_gate
+Summary(pl.UTF-8):	Zestaw fortunek: bocian_gate
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -632,7 +632,7 @@ djurban@pld-linux.org
 
 %package -n fortune-mod-pl-gra_polslowek
 Summary:	Fortune mod: gra_polslowek
-Summary(pl):	Zestaw fortunek: gra_polslowek
+Summary(pl.UTF-8):	Zestaw fortunek: gra_polslowek
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -642,7 +642,7 @@ krótkich zdaniach (na przykład: Gra półSłówek -> Sra półGłówek)
 
 %package -n fortune-mod-pl-10-przykazan-dewelopera-PLD
 Summary:	Fortune mod: 10-przykazan-dewelopera-PLD
-Summary(pl):	Zestaw fortunek: 10-przykazan-dewelopera-PLD
+Summary(pl.UTF-8):	Zestaw fortunek: 10-przykazan-dewelopera-PLD
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -662,7 +662,7 @@ djrzulf@pld-linux.org
 
 %package -n fortune-mod-pl-sapkowski
 Summary:	Fortune mod: sapkowski
-Summary(pl):	Zestaw fortunek: sapkowski
+Summary(pl.UTF-8):	Zestaw fortunek: sapkowski
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -671,7 +671,7 @@ sapkowski -- cytaty z Andrzeja Sapkowskiego
 
 %package -n fortune-mod-pl-znaki_zodiaku
 Summary:	Fortune mod: znaki_zodiaku
-Summary(pl):	Zestaw fortunek: znaki_zodiaku
+Summary(pl.UTF-8):	Zestaw fortunek: znaki_zodiaku
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -680,7 +680,7 @@ znaki_zodiaku -- horoskop na każdą okazję autorstwa Stanisława Tyma
 
 %package -n fortune-mod-pl-koscielne
 Summary:	Fortune mod: koscielne
-Summary(pl):	Zestaw fortunek: koscielne
+Summary(pl.UTF-8):	Zestaw fortunek: koscielne
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -689,7 +689,7 @@ koscielne -- o kościele
 
 %package -n fortune-mod-pl-pLug-slc2001
 Summary:	Fortune mod: pLug-slc2001
-Summary(pl):	Zestaw fortunek: pLug-slc2001
+Summary(pl.UTF-8):	Zestaw fortunek: pLug-slc2001
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -699,7 +699,7 @@ pLug-slc2001 -- Polish(ed) Łyżka Users Group: Summer Libation Camp
 
 %package -n fortune-mod-pl-dzieci
 Summary:	Fortune mod: dzieci
-Summary(pl):	Zestaw fortunek: dzieci
+Summary(pl.UTF-8):	Zestaw fortunek: dzieci
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -708,7 +708,7 @@ dzieci -- ... w oczach dzieci
 
 %package -n fortune-mod-pl-pldhelp-offensive
 Summary:	Fortune mod: pldhelp-offensive
-Summary(pl):	Zestaw fortunek: pldhelp-offensive
+Summary(pl.UTF-8):	Zestaw fortunek: pldhelp-offensive
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -717,7 +717,7 @@ pldhelp-offensive -- kanał #pldhelp && support (nieocenzurowane)
 
 %package -n fortune-mod-pl-gentoo
 Summary:	Fortune mod: gentoo
-Summary(pl):	Zestaw fortunek: gentoo
+Summary(pl.UTF-8):	Zestaw fortunek: gentoo
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -737,7 +737,7 @@ kolodko@pld-linux.org
 
 %package -n fortune-mod-pl-newyear
 Summary:	Fortune mod: newyear
-Summary(pl):	Zestaw fortunek: newyear
+Summary(pl.UTF-8):	Zestaw fortunek: newyear
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -757,7 +757,7 @@ agaran@pld-linux.org
 
 %package -n fortune-mod-pl-imiona
 Summary:	Fortune mod: imiona
-Summary(pl):	Zestaw fortunek: imiona
+Summary(pl.UTF-8):	Zestaw fortunek: imiona
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -766,7 +766,7 @@ imiona -- czego można się spodziewać po kimś o danym imieniu
 
 %package -n fortune-mod-pl-matrymonialne
 Summary:	Fortune mod: matrymonialne
-Summary(pl):	Zestaw fortunek: matrymonialne
+Summary(pl.UTF-8):	Zestaw fortunek: matrymonialne
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -775,7 +775,7 @@ matrymonialne -- ogłoszenia matrymonialne z roku 1935
 
 %package -n fortune-mod-pl-7thguard
 Summary:	Fortune mod: 7thguard
-Summary(pl):	Zestaw fortunek: 7thguard
+Summary(pl.UTF-8):	Zestaw fortunek: 7thguard
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -795,7 +795,7 @@ arturs@pld-linux.org
 
 %package -n fortune-mod-pl-matura
 Summary:	Fortune mod: matura
-Summary(pl):	Zestaw fortunek: matura
+Summary(pl.UTF-8):	Zestaw fortunek: matura
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -804,7 +804,7 @@ matura -- pewniaki na maturę oraz teksty z matury ;)
 
 %package -n fortune-mod-pl-konikbujany
 Summary:	Fortune mod: konikbujany
-Summary(pl):	Zestaw fortunek: konikbujany
+Summary(pl.UTF-8):	Zestaw fortunek: konikbujany
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -815,7 +815,7 @@ anathema.eu.org
 
 %package -n fortune-mod-pl-dowcipy-naukowcy
 Summary:	Fortune mod: dowcipy-naukowcy
-Summary(pl):	Zestaw fortunek: dowcipy-naukowcy
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-naukowcy
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -824,7 +824,7 @@ dowcipy-naukowcy -- proste myślenie mądrych ludzi - i na odwrót
 
 %package -n fortune-mod-pl-milosc
 Summary:	Fortune mod: milosc
-Summary(pl):	Zestaw fortunek: milosc
+Summary(pl.UTF-8):	Zestaw fortunek: milosc
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -833,7 +833,7 @@ milosc -- wiersze dziewczyny Diabl0 <diabl0@poczta.fm>
 
 %package -n fortune-mod-pl-mmazur
 Summary:	Fortune mod: mmazur
-Summary(pl):	Zestaw fortunek: mmazur
+Summary(pl.UTF-8):	Zestaw fortunek: mmazur
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -853,7 +853,7 @@ speedy@pld-linux.org
 
 %package -n fortune-mod-pl-radio_maryja
 Summary:	Fortune mod: radio_maryja
-Summary(pl):	Zestaw fortunek: radio_maryja
+Summary(pl.UTF-8):	Zestaw fortunek: radio_maryja
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -862,7 +862,7 @@ radio_maryja -- apolityczne radio maryja
 
 %package -n fortune-mod-pl-seneka
 Summary:	Fortune mod: seneka
-Summary(pl):	Zestaw fortunek: seneka
+Summary(pl.UTF-8):	Zestaw fortunek: seneka
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -871,7 +871,7 @@ seneka -- ze zbioru "Myśli"
 
 %package -n fortune-mod-pl-spolem
 Summary:	Fortune mod: spolem
-Summary(pl):	Zestaw fortunek: spolem
+Summary(pl.UTF-8):	Zestaw fortunek: spolem
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -891,7 +891,7 @@ djrzulf@pld-linux.org
 
 %package -n fortune-mod-pl-stachura
 Summary:	Fortune mod: stachura
-Summary(pl):	Zestaw fortunek: stachura
+Summary(pl.UTF-8):	Zestaw fortunek: stachura
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -900,7 +900,7 @@ stachura -- kilka wierszy
 
 %package -n fortune-mod-pl-pld-fork
 Summary:	Fortune mod: pld-fork
-Summary(pl):	Zestaw fortunek: pld-fork
+Summary(pl.UTF-8):	Zestaw fortunek: pld-fork
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -920,7 +920,7 @@ adamg@pld-linux.org
 
 %package -n fortune-mod-pl-baseciq
 Summary:	Fortune mod: baseciq
-Summary(pl):	Zestaw fortunek: baseciq
+Summary(pl.UTF-8):	Zestaw fortunek: baseciq
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -930,7 +930,7 @@ to pół polski ma ubaw.
 
 %package -n fortune-mod-pl-dowcipy-lepper
 Summary:	Fortune mod: dowcipy-lepper
-Summary(pl):	Zestaw fortunek: dowcipy-lepper
+Summary(pl.UTF-8):	Zestaw fortunek: dowcipy-lepper
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -939,7 +939,7 @@ dowcipy-lepper -- charyzmatyczny przywódca Samoobrony i jego mądrości
 
 %package -n fortune-mod-pl-komputery
 Summary:	Fortune mod: komputery
-Summary(pl):	Zestaw fortunek: komputery
+Summary(pl.UTF-8):	Zestaw fortunek: komputery
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -949,7 +949,7 @@ adresu nikt już nie pamięta ;-)
 
 %package -n fortune-mod-pl-wieza-pilot
 Summary:	Fortune mod: wieza-pilot
-Summary(pl):	Zestaw fortunek: wieza-pilot
+Summary(pl.UTF-8):	Zestaw fortunek: wieza-pilot
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -958,7 +958,7 @@ wieza-pilot -- rozmowy wieża-pilot
 
 %package -n fortune-mod-pl-argante
 Summary:	Fortune mod: argante
-Summary(pl):	Zestaw fortunek: argante
+Summary(pl.UTF-8):	Zestaw fortunek: argante
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -968,7 +968,7 @@ argante -- cytaty z listy mailingowej projektu argante
 
 %package -n fortune-mod-pl-advocacy
 Summary:	Fortune mod: advocacy
-Summary(pl):	Zestaw fortunek: advocacy
+Summary(pl.UTF-8):	Zestaw fortunek: advocacy
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -978,7 +978,7 @@ advocacy -- Złota Księga Cytatów Cytaty są na pograniczu śmieszności i
 
 %package -n fortune-mod-pl-stirlitz
 Summary:	Fortune mod: stirlitz
-Summary(pl):	Zestaw fortunek: stirlitz
+Summary(pl.UTF-8):	Zestaw fortunek: stirlitz
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -987,7 +987,7 @@ stirlitz -- rosyjski agent w niemieckich strukturach
 
 %package -n fortune-mod-pl-ospl-ad
 Summary:	Fortune mod: ospl-ad
-Summary(pl):	Zestaw fortunek: ospl-ad
+Summary(pl.UTF-8):	Zestaw fortunek: ospl-ad
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -997,7 +997,7 @@ sygnaturek :-)
 
 %package -n fortune-mod-pl-pld-offensive
 Summary:	Fortune mod: pld-offensive
-Summary(pl):	Zestaw fortunek: pld-offensive
+Summary(pl.UTF-8):	Zestaw fortunek: pld-offensive
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1007,7 +1007,7 @@ Porozumienia Ludowo - Demokratycznego ;-p (nieocenzurowane)
 
 %package -n fortune-mod-pl-pratchett
 Summary:	Fortune mod: pratchett
-Summary(pl):	Zestaw fortunek: pratchett
+Summary(pl.UTF-8):	Zestaw fortunek: pratchett
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1017,7 +1017,7 @@ Cholewa)
 
 %package -n fortune-mod-pl-pldhelp
 Summary:	Fortune mod: pldhelp
-Summary(pl):	Zestaw fortunek: pldhelp
+Summary(pl.UTF-8):	Zestaw fortunek: pldhelp
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1026,7 +1026,7 @@ pldhelp -- kanał #pldhelp && support
 
 %package -n fortune-mod-pl-microsoft
 Summary:	Fortune mod: microsoft
-Summary(pl):	Zestaw fortunek: microsoft
+Summary(pl.UTF-8):	Zestaw fortunek: microsoft
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1036,7 +1036,7 @@ adresu nikt już nie pamięta ;-) plus doświadczenia własne ;-)
 
 %package -n fortune-mod-pl-chuck-norris
 Summary:	Fortune mod: chuck-norris
-Summary(pl):	Zestaw fortunek: chuck-norris
+Summary(pl.UTF-8):	Zestaw fortunek: chuck-norris
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1056,7 +1056,7 @@ blekot@pld-linux.org
 
 %package -n fortune-mod-pl-teleturnieje
 Summary:	Fortune mod: teleturnieje
-Summary(pl):	Zestaw fortunek: teleturnieje
+Summary(pl.UTF-8):	Zestaw fortunek: teleturnieje
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1065,7 +1065,7 @@ teleturnieje -- mądrości uczestników teleturniejów
 
 %package -n fortune-mod-pl-ipv6.pl
 Summary:	Fortune mod: ipv6.pl
-Summary(pl):	Zestaw fortunek: ipv6.pl
+Summary(pl.UTF-8):	Zestaw fortunek: ipv6.pl
 Group:		Applications/Games
 Requires:	fortune-mod
 
@@ -1074,7 +1074,7 @@ ipv6.pl -- fortunki z kanału #ipv6.pl
 
 %package -n fortune-mod-pl-wierszyki
 Summary:	Fortune mod: wierszyki
-Summary(pl):	Zestaw fortunek: wierszyki
+Summary(pl.UTF-8):	Zestaw fortunek: wierszyki
 Group:		Applications/Games
 Requires:	fortune-mod
 
