@@ -1,7 +1,9 @@
 # TODO
 # - add missing english descriptions
 #
-# THIS IS GENERATED FILE. DO NOT EDIT BY HAND.
+# <del>THIS IS GENERATED FILE. DO NOT EDIT BY HAND</del>
+# Source of this package is generated, review your changes before you overwrite
+# somebody else's work. fixing automation is welcome too.
 #
 # If you want to modify or regenerate it use script from CVS:
 # fortunes-pl/SPEC/*
@@ -1085,10 +1087,9 @@ wierszyki -- prosto z przedszkola (offensive)
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-for i in *;
-do
- strfile $i;
- install $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes;
+for i in *; do
+	strfile $i
+	cp -a $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 done;
 
 %clean
