@@ -1,21 +1,13 @@
 # TODO
 # - add missing english descriptions
-#
-# <del>THIS IS GENERATED FILE. DO NOT EDIT BY HAND</del>
-# Source of this package is generated, review your changes before you overwrite
-# somebody else's work. fixing automation is welcome too.
-#
-# If you want to modify or regenerate it use script from CVS:
-# fortunes-pl/SPEC/*
-#
 Summary:	Collection of Polish Fortunes
 Summary(pl.UTF-8):	Zbiór polskich fortunek
 Name:		fortunes-pl
 Version:	20091121
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Games
-Source0:	http://xatka.net/~z/PLD/%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	afa3e19d0d1340ee1e321b5ca218fb40
 BuildRequires:	fortune-mod >= 1.0-13
 BuildArch:	noarch
@@ -31,8 +23,7 @@ time they log in.
 Install fortune if you want a program which will bestow these random
 bits o' wit.
 
-This package constant colection of polish fortunes from
-cvs.pld-linux.org
+This package constant colection of polish fortunes from cvs.pld-linux.org
 
 %description -l pl.UTF-8
 Fortune-mod zawiera wciąż popularny program fortune ("cytat dnia",
@@ -50,8 +41,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-bok -l pl.UTF-8
-bok -- teksty z różnych Biur Obsługi Klienta, sklepów komputerowych
-itp, generalnie PMKAK (Problem Między Krzesłem A Komputerem) :)
+bok -- teksty z różnych Biur Obsługi Klienta, sklepów komputerowych itp,
+       generalnie PMKAK (Problem Między Krzesłem A Komputerem) :)
 
 %package -n fortune-mod-pl-cnp
 Summary:	Fortune mod: cnp
@@ -71,16 +62,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-irc
 Fortune mod: irc
 
-We are sorry that there is no more useful description, but djurban is
-too lame to add description to the README file. Send your requests to
-djurban@pld-linux.org
+We are sorry that there is no more useful description,
+but djurban is too lame to add description to the README
+file. Send your requests to djurban@pld-linux.org
 
 %description -n fortune-mod-pl-irc -l pl.UTF-8
 Zestaw fortunek: irc
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale djurban nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-djurban@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale djurban nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-pld
 Summary:	Fortune mod: pld
@@ -89,8 +80,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-pld -l pl.UTF-8
-pld -- chodzi oczywiście o wypowiedzi polityków z Porozumienia Ludowo
-- Demokratycznego ;-p
+pld -- chodzi oczywiście o wypowiedzi polityków z Porozumienia Ludowo -
+Demokratycznego ;-p
 
 %package -n fortune-mod-pl-sad
 Summary:	Fortune mod: sad
@@ -100,8 +91,8 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-sad -l pl.UTF-8
 sad -- Cytaty z amerykańskiej książki 'Disorder in the Court'. To są
-autentyczne zdania, które padły w sądach - słowo w słowo. Nagrane i
-opublikowane przez reporterów sądowych.
+autentyczne zdania, które padły w sądach - słowo w słowo.
+Nagrane i opublikowane przez reporterów sądowych.
 
 %package -n fortune-mod-pl-zen
 Summary:	Fortune mod: zen
@@ -119,8 +110,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-blug -l pl.UTF-8
-blug -- wypowiedzi członków Bydgoszcz Linux Users Group wychwycone z
-#blug
+blug -- wypowiedzi członków Bydgoszcz Linux Users Group wychwycone z #blug
 
 %package -n fortune-mod-pl-cows
 Summary:	Fortune mod: cows
@@ -149,16 +139,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-life
 Fortune mod: life
 
-We are sorry that there is no more useful description, but djurban is
-too lame to add description to the README file. Send your requests to
-djurban@pld-linux.org
+We are sorry that there is no more useful description,
+but djurban is too lame to add description to the README
+file. Send your requests to djurban@pld-linux.org
 
 %description -n fortune-mod-pl-life -l pl.UTF-8
 Zestaw fortunek: life
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale djurban nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-djurban@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale djurban nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-misc
 Summary:	Fortune mod: misc
@@ -226,8 +216,8 @@ Requires:	fortune-mod
 
 %description -n fortune-mod-pl-plug -l pl.UTF-8
 plug -- mądrości z kanału #plug, podesłał Mateusz Golicz
-<mtg@elsat.net.pl> oraz ogroooomna aktualizacja dzięki Tygrysowi
-(tygrys@tangerine.dream.art.pl).
+<mtg@elsat.net.pl> oraz ogroooomna aktualizacja dzięki
+Tygrysowi (tygrys@tangerine.dream.art.pl).
 
 %package -n fortune-mod-pl-psy1
 Summary:	Fortune mod: psy1
@@ -256,16 +246,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-pamietnik_policjanta
 Fortune mod: pamietnik_policjanta
 
-We are sorry that there is no more useful description, but undefine is
-too lame to add description to the README file. Send your requests to
-undefine@pld-linux.org
+We are sorry that there is no more useful description,
+but undefine is too lame to add description to the README
+file. Send your requests to undefine@pld-linux.org
 
 %description -n fortune-mod-pl-pamietnik_policjanta -l pl.UTF-8
 Zestaw fortunek: pamietnik_policjanta
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale undefine nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-undefine@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale undefine nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres undefine@pld-linux.org
 
 %package -n fortune-mod-pl-puchatek
 Summary:	Fortune mod: puchatek
@@ -274,8 +264,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-puchatek -l pl.UTF-8
-puchatek -- (gdyby ktoś chciał pododawać coś o Misiu...) z
-anathema.eu.org
+puchatek -- (gdyby ktoś chciał pododawać coś o Misiu...) z anathema.eu.org
 
 %package -n fortune-mod-pl-kloczkish
 Summary:	Fortune mod: kloczkish
@@ -311,8 +300,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-bajki -l pl.UTF-8
-bajki -- bajki o naleśniku, powidłach, kapuście, wątróbce,
-pantofelku...
+bajki -- bajki o naleśniku, powidłach, kapuście, wątróbce, pantofelku...
 
 %package -n fortune-mod-pl-apcoh
 Summary:	Fortune mod: apcoh
@@ -339,8 +327,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-dwimc -l pl.UTF-8
-dwimc -- cycaty w tłumaczeniu polskim (Yagoda) z filmu "Stary, gdzie
-jest moja bryka ?!"
+dwimc -- cycaty w tłumaczeniu polskim (Yagoda) z filmu "Stary, gdzie jest
+moja bryka ?!"
 
 %package -n fortune-mod-pl-haiku
 Summary:	Fortune mod: haiku
@@ -406,8 +394,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-lcamtuf -l pl.UTF-8
-lcamtuf -- co lepsze fragmenty listów do lcamtufa oraz msg-ów z
-#hackpl.
+lcamtuf -- co lepsze fragmenty listów do lcamtufa oraz msg-ów z #hackpl.
 
 %package -n fortune-mod-pl-dowcipy-feministyczne
 Summary:	Fortune mod: dowcipy-feministyczne
@@ -437,16 +424,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-kernelcookies
 Fortune mod: kernelcookies
 
-We are sorry that there is no more useful description, but adasi is
-too lame to add description to the README file. Send your requests to
-adasi@pld-linux.org
+We are sorry that there is no more useful description,
+but adasi is too lame to add description to the README
+file. Send your requests to adasi@pld-linux.org
 
 %description -n fortune-mod-pl-kernelcookies -l pl.UTF-8
 Zestaw fortunek: kernelcookies
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale adasi nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-adasi@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale adasi nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres adasi@pld-linux.org
 
 %package -n fortune-mod-pl-jogger_pl
 Summary:	Fortune mod: jogger_pl
@@ -457,16 +444,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-jogger_pl
 Fortune mod: jogger_pl
 
-We are sorry that there is no more useful description, but jpc is too
-lame to add description to the README file. Send your requests to
-jpc@pld-linux.org
+We are sorry that there is no more useful description,
+but jpc is too lame to add description to the README
+file. Send your requests to jpc@pld-linux.org
 
 %description -n fortune-mod-pl-jogger_pl -l pl.UTF-8
 Zestaw fortunek: jogger_pl
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale jpc nie potrafi
-dodać opisu do pliku README. Prośby prosimy kierować na adres
-jpc@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale jpc nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres jpc@pld-linux.org
 
 %package -n fortune-mod-pl-dowcipy
 Summary:	Fortune mod: dowcipy
@@ -549,8 +536,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-slogany -l pl.UTF-8
-slogany -- źródło jest podane w sygnaturkach; chyba lepiej je
-przenieść tutaj, podesłał Marcin Rzewucki <marcinr@linuxpl.org>
+slogany -- źródło jest podane w sygnaturkach; chyba lepiej je przenieść
+tutaj, podesłał Marcin Rzewucki <marcinr@linuxpl.org>
 
 %package -n fortune-mod-pl-slownik
 Summary:	Fortune mod: slownik
@@ -570,16 +557,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-x-avalon
 Fortune mod: x-avalon
 
-We are sorry that there is no more useful description, but djurban is
-too lame to add description to the README file. Send your requests to
-djurban@pld-linux.org
+We are sorry that there is no more useful description,
+but djurban is too lame to add description to the README
+file. Send your requests to djurban@pld-linux.org
 
 %description -n fortune-mod-pl-x-avalon -l pl.UTF-8
 Zestaw fortunek: x-avalon
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale djurban nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-djurban@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale djurban nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-icpusers
 Summary:	Fortune mod: icpusers
@@ -590,16 +577,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-icpusers
 Fortune mod: icpusers
 
-We are sorry that there is no more useful description, but waszi is
-too lame to add description to the README file. Send your requests to
-waszi@pld-linux.org
+We are sorry that there is no more useful description,
+but waszi is too lame to add description to the README
+file. Send your requests to waszi@pld-linux.org
 
 %description -n fortune-mod-pl-icpusers -l pl.UTF-8
 Zestaw fortunek: icpusers
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale waszi nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-waszi@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale waszi nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres waszi@pld-linux.org
 
 %package -n fortune-mod-pl-rzewski
 Summary:	Fortune mod: rzewski
@@ -619,16 +606,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-bocian_gate
 Fortune mod: bocian_gate
 
-We are sorry that there is no more useful description, but djurban is
-too lame to add description to the README file. Send your requests to
-djurban@pld-linux.org
+We are sorry that there is no more useful description,
+but djurban is too lame to add description to the README
+file. Send your requests to djurban@pld-linux.org
 
 %description -n fortune-mod-pl-bocian_gate -l pl.UTF-8
 Zestaw fortunek: bocian_gate
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale djurban nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-djurban@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale djurban nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres djurban@pld-linux.org
 
 %package -n fortune-mod-pl-gra_polslowek
 Summary:	Fortune mod: gra_polslowek
@@ -637,8 +624,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-gra_polslowek -l pl.UTF-8
-gra_polslowek -- gra polega na zamianie miejscami DUŻYCH liter w
-krótkich zdaniach (na przykład: Gra półSłówek -> Sra półGłówek)
+gra_polslowek -- gra polega na zamianie miejscami DUŻYCH liter w krótkich
+zdaniach (na przykład: Gra półSłówek -> Sra półGłówek)
 
 %package -n fortune-mod-pl-10-przykazan-dewelopera-PLD
 Summary:	Fortune mod: 10-przykazan-dewelopera-PLD
@@ -649,16 +636,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-10-przykazan-dewelopera-PLD
 Fortune mod: 10-przykazan-dewelopera-PLD
 
-We are sorry that there is no more useful description, but djrzulf is
-too lame to add description to the README file. Send your requests to
-djrzulf@pld-linux.org
+We are sorry that there is no more useful description,
+but djrzulf is too lame to add description to the README
+file. Send your requests to djrzulf@pld-linux.org
 
 %description -n fortune-mod-pl-10-przykazan-dewelopera-PLD -l pl.UTF-8
 Zestaw fortunek: 10-przykazan-dewelopera-PLD
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale djrzulf nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-djrzulf@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale djrzulf nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres djrzulf@pld-linux.org
 
 %package -n fortune-mod-pl-sapkowski
 Summary:	Fortune mod: sapkowski
@@ -685,7 +672,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-koscielne -l pl.UTF-8
-koscielne -- o kościele
+koscielne -- o kościele 
 
 %package -n fortune-mod-pl-pLug-slc2001
 Summary:	Fortune mod: pLug-slc2001
@@ -694,8 +681,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-pLug-slc2001 -l pl.UTF-8
-pLug-slc2001 -- Polish(ed) Łyżka Users Group: Summer Libation Camp
-2001
+pLug-slc2001 -- Polish(ed) Łyżka Users Group: Summer Libation Camp 2001
 
 %package -n fortune-mod-pl-dzieci
 Summary:	Fortune mod: dzieci
@@ -724,16 +710,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-gentoo
 Fortune mod: gentoo
 
-We are sorry that there is no more useful description, but kolodko is
-too lame to add description to the README file. Send your requests to
-kolodko@pld-linux.org
+We are sorry that there is no more useful description,
+but kolodko is too lame to add description to the README
+file. Send your requests to kolodko@pld-linux.org
 
 %description -n fortune-mod-pl-gentoo -l pl.UTF-8
 Zestaw fortunek: gentoo
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale kolodko nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-kolodko@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale kolodko nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres kolodko@pld-linux.org
 
 %package -n fortune-mod-pl-newyear
 Summary:	Fortune mod: newyear
@@ -744,16 +730,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-newyear
 Fortune mod: newyear
 
-We are sorry that there is no more useful description, but agaran is
-too lame to add description to the README file. Send your requests to
-agaran@pld-linux.org
+We are sorry that there is no more useful description,
+but agaran is too lame to add description to the README
+file. Send your requests to agaran@pld-linux.org
 
 %description -n fortune-mod-pl-newyear -l pl.UTF-8
 Zestaw fortunek: newyear
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale agaran nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-agaran@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale agaran nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres agaran@pld-linux.org
 
 %package -n fortune-mod-pl-imiona
 Summary:	Fortune mod: imiona
@@ -782,16 +768,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-7thguard
 Fortune mod: 7thguard
 
-We are sorry that there is no more useful description, but arturs is
-too lame to add description to the README file. Send your requests to
-arturs@pld-linux.org
+We are sorry that there is no more useful description,
+but arturs is too lame to add description to the README
+file. Send your requests to arturs@pld-linux.org
 
 %description -n fortune-mod-pl-7thguard -l pl.UTF-8
 Zestaw fortunek: 7thguard
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale arturs nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-arturs@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale arturs nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres arturs@pld-linux.org
 
 %package -n fortune-mod-pl-matura
 Summary:	Fortune mod: matura
@@ -809,9 +795,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-konikbujany -l pl.UTF-8
-konikbujany -- wypowiedzi człowieka przedstawiającego się jako
-konikbujany (między innymi), bardzo egzotyczna postać; z
-anathema.eu.org
+konikbujany -- wypowiedzi człowieka przedstawiającego się jako konikbujany
+(między innymi), bardzo egzotyczna postać; z anathema.eu.org
 
 %package -n fortune-mod-pl-dowcipy-naukowcy
 Summary:	Fortune mod: dowcipy-naukowcy
@@ -840,16 +825,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-mmazur
 Fortune mod: mmazur
 
-We are sorry that there is no more useful description, but speedy is
-too lame to add description to the README file. Send your requests to
-speedy@pld-linux.org
+We are sorry that there is no more useful description,
+but speedy is too lame to add description to the README
+file. Send your requests to speedy@pld-linux.org
 
 %description -n fortune-mod-pl-mmazur -l pl.UTF-8
 Zestaw fortunek: mmazur
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale speedy nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-speedy@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale speedy nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres speedy@pld-linux.org
 
 %package -n fortune-mod-pl-radio_maryja
 Summary:	Fortune mod: radio_maryja
@@ -878,16 +863,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-spolem
 Fortune mod: spolem
 
-We are sorry that there is no more useful description, but djrzulf is
-too lame to add description to the README file. Send your requests to
-djrzulf@pld-linux.org
+We are sorry that there is no more useful description,
+but djrzulf is too lame to add description to the README
+file. Send your requests to djrzulf@pld-linux.org
 
 %description -n fortune-mod-pl-spolem -l pl.UTF-8
 Zestaw fortunek: spolem
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale djrzulf nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-djrzulf@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale djrzulf nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres djrzulf@pld-linux.org
 
 %package -n fortune-mod-pl-stachura
 Summary:	Fortune mod: stachura
@@ -907,16 +892,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-pld-fork
 Fortune mod: pld-fork
 
-We are sorry that there is no more useful description, but adamg is
-too lame to add description to the README file. Send your requests to
-adamg@pld-linux.org
+We are sorry that there is no more useful description,
+but adamg is too lame to add description to the README
+file. Send your requests to adamg@pld-linux.org
 
 %description -n fortune-mod-pl-pld-fork -l pl.UTF-8
 Zestaw fortunek: pld-fork
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale adamg nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-adamg@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale adamg nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres adamg@pld-linux.org
 
 %package -n fortune-mod-pl-baseciq
 Summary:	Fortune mod: baseciq
@@ -963,8 +948,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-argante -l pl.UTF-8
-argante -- cytaty z listy mailingowej projektu argante
-(www.argante.org) i kanału #argante
+argante -- cytaty z listy mailingowej projektu argante (www.argante.org)
+i kanału #argante
 
 %package -n fortune-mod-pl-advocacy
 Summary:	Fortune mod: advocacy
@@ -973,8 +958,9 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-advocacy -l pl.UTF-8
-advocacy -- Złota Księga Cytatów Cytaty są na pograniczu śmieszności i
-żałosności... Źródło: http://lech7.pse.pl/ZKC/
+advocacy -- Złota Księga Cytatów
+Cytaty są na pograniczu śmieszności i żałosności...
+Źródło: http://lech7.pse.pl/ZKC/
 
 %package -n fortune-mod-pl-stirlitz
 Summary:	Fortune mod: stirlitz
@@ -992,8 +978,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-ospl-ad -l pl.UTF-8
-ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i
-sygnaturek :-)
+ospl-ad -- fortunki advocacy dla ospl, z list dyskusyjnych i sygnaturek :-)
 
 %package -n fortune-mod-pl-pld-offensive
 Summary:	Fortune mod: pld-offensive
@@ -1002,8 +987,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-pld-offensive -l pl.UTF-8
-pld-offensive -- chodzi oczywiście o wypowiedzi polityków z
-Porozumienia Ludowo - Demokratycznego ;-p (nieocenzurowane)
+pld-offensive -- chodzi oczywiście o wypowiedzi polityków z Porozumienia
+Ludowo - Demokratycznego ;-p (nieocenzurowane)
 
 %package -n fortune-mod-pl-pratchett
 Summary:	Fortune mod: pratchett
@@ -1012,8 +997,7 @@ Group:		Applications/Games
 Requires:	fortune-mod
 
 %description -n fortune-mod-pl-pratchett -l pl.UTF-8
-pratchett -- cytaty z Terry'ego Pratchetta (tł. w większości P.W.
-Cholewa)
+pratchett -- cytaty z Terry'ego Pratchetta (tł. w większości P.W. Cholewa)
 
 %package -n fortune-mod-pl-pldhelp
 Summary:	Fortune mod: pldhelp
@@ -1043,16 +1027,16 @@ Requires:	fortune-mod
 %description -n fortune-mod-pl-chuck-norris
 Fortune mod: chuck-norris
 
-We are sorry that there is no more useful description, but blekot is
-too lame to add description to the README file. Send your requests to
-blekot@pld-linux.org
+We are sorry that there is no more useful description,
+but blekot is too lame to add description to the README
+file. Send your requests to blekot@pld-linux.org
 
 %description -n fortune-mod-pl-chuck-norris -l pl.UTF-8
 Zestaw fortunek: chuck-norris
 
-Przykro nam, że nie ma bardziej dokładnego opisu, ale blekot nie
-potrafi dodać opisu do pliku README. Prośby prosimy kierować na adres
-blekot@pld-linux.org
+Przykro nam, że nie ma bardziej dokładnego opisu,
+ale blekot nie potrafi dodać opisu do pliku README.
+Prośby prosimy kierować na adres blekot@pld-linux.org
 
 %package -n fortune-mod-pl-teleturnieje
 Summary:	Fortune mod: teleturnieje
@@ -1084,13 +1068,16 @@ wierszyki -- prosto z przedszkola (offensive)
 %prep
 %setup -q
 
+%build
+for i in *; do
+ strfile $i;
+ ln -s $i $i.u8
+done;
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-for i in *; do
-	strfile $i
-	cp -a $i $i.dat $RPM_BUILD_ROOT%{_datadir}/games/fortunes
-done;
+cp -a * $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -1099,458 +1086,550 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/bok
 %{_datadir}/games/fortunes/bok.dat
+%{_datadir}/games/fortunes/bok.u8
 
 %files -n fortune-mod-pl-cnp
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/cnp
 %{_datadir}/games/fortunes/cnp.dat
+%{_datadir}/games/fortunes/cnp.u8
 
 %files -n fortune-mod-pl-irc
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/irc
 %{_datadir}/games/fortunes/irc.dat
+%{_datadir}/games/fortunes/irc.u8
 
 %files -n fortune-mod-pl-pld
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pld
 %{_datadir}/games/fortunes/pld.dat
+%{_datadir}/games/fortunes/pld.u8
 
 %files -n fortune-mod-pl-sad
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sad
 %{_datadir}/games/fortunes/sad.dat
+%{_datadir}/games/fortunes/sad.u8
 
 %files -n fortune-mod-pl-zen
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/zen
 %{_datadir}/games/fortunes/zen.dat
+%{_datadir}/games/fortunes/zen.u8
 
 %files -n fortune-mod-pl-blug
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/blug
 %{_datadir}/games/fortunes/blug.dat
+%{_datadir}/games/fortunes/blug.u8
 
 %files -n fortune-mod-pl-cows
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/cows
 %{_datadir}/games/fortunes/cows.dat
+%{_datadir}/games/fortunes/cows.u8
 
 %files -n fortune-mod-pl-http
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/http
 %{_datadir}/games/fortunes/http.dat
+%{_datadir}/games/fortunes/http.u8
 
 %files -n fortune-mod-pl-life
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/life
 %{_datadir}/games/fortunes/life.dat
+%{_datadir}/games/fortunes/life.u8
 
 %files -n fortune-mod-pl-misc
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/misc
 %{_datadir}/games/fortunes/misc.dat
+%{_datadir}/games/fortunes/misc.u8
 
 %files -n fortune-mod-pl-pLug
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pLug
 %{_datadir}/games/fortunes/pLug.dat
+%{_datadir}/games/fortunes/pLug.u8
 
 %files -n fortune-mod-pl-nowe
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/nowe
 %{_datadir}/games/fortunes/nowe.dat
+%{_datadir}/games/fortunes/nowe.u8
 
 %files -n fortune-mod-pl-pcol
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pcol
 %{_datadir}/games/fortunes/pcol.dat
+%{_datadir}/games/fortunes/pcol.u8
 
 %files -n fortune-mod-pl-perl
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/perl
 %{_datadir}/games/fortunes/perl.dat
+%{_datadir}/games/fortunes/perl.u8
 
 %files -n fortune-mod-pl-ospl
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/ospl
 %{_datadir}/games/fortunes/ospl.dat
+%{_datadir}/games/fortunes/ospl.u8
 
 %files -n fortune-mod-pl-plug
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/plug
 %{_datadir}/games/fortunes/plug.dat
+%{_datadir}/games/fortunes/plug.u8
 
 %files -n fortune-mod-pl-psy1
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/psy1
 %{_datadir}/games/fortunes/psy1.dat
+%{_datadir}/games/fortunes/psy1.u8
 
 %files -n fortune-mod-pl-dowcipy-niskopoziomowe
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-niskopoziomowe
 %{_datadir}/games/fortunes/dowcipy-niskopoziomowe.dat
+%{_datadir}/games/fortunes/dowcipy-niskopoziomowe.u8
 
 %files -n fortune-mod-pl-pamietnik_policjanta
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pamietnik_policjanta
 %{_datadir}/games/fortunes/pamietnik_policjanta.dat
+%{_datadir}/games/fortunes/pamietnik_policjanta.u8
 
 %files -n fortune-mod-pl-puchatek
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/puchatek
 %{_datadir}/games/fortunes/puchatek.dat
+%{_datadir}/games/fortunes/puchatek.u8
 
 %files -n fortune-mod-pl-kloczkish
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/kloczkish
 %{_datadir}/games/fortunes/kloczkish.dat
+%{_datadir}/games/fortunes/kloczkish.u8
 
 %files -n fortune-mod-pl-debian.pl
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/debian.pl
 %{_datadir}/games/fortunes/debian.pl.dat
+%{_datadir}/games/fortunes/debian.pl.u8
 
 %files -n fortune-mod-pl-adamg
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/adamg
 %{_datadir}/games/fortunes/adamg.dat
+%{_datadir}/games/fortunes/adamg.u8
 
 %files -n fortune-mod-pl-bajki
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/bajki
 %{_datadir}/games/fortunes/bajki.dat
+%{_datadir}/games/fortunes/bajki.u8
 
 %files -n fortune-mod-pl-apcoh
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/apcoh
 %{_datadir}/games/fortunes/apcoh.dat
+%{_datadir}/games/fortunes/apcoh.u8
 
 %files -n fortune-mod-pl-djurban
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/djurban
 %{_datadir}/games/fortunes/djurban.dat
+%{_datadir}/games/fortunes/djurban.u8
 
 %files -n fortune-mod-pl-dwimc
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dwimc
 %{_datadir}/games/fortunes/dwimc.dat
+%{_datadir}/games/fortunes/dwimc.u8
 
 %files -n fortune-mod-pl-haiku
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/haiku
 %{_datadir}/games/fortunes/haiku.dat
+%{_datadir}/games/fortunes/haiku.u8
 
 %files -n fortune-mod-pl-linux
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/linux
 %{_datadir}/games/fortunes/linux.dat
+%{_datadir}/games/fortunes/linux.u8
 
 %files -n fortune-mod-pl-nauka
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/nauka
 %{_datadir}/games/fortunes/nauka.dat
+%{_datadir}/games/fortunes/nauka.u8
 
 %files -n fortune-mod-pl-pplug
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pplug
 %{_datadir}/games/fortunes/pplug.dat
+%{_datadir}/games/fortunes/pplug.u8
 
 %files -n fortune-mod-pl-sigpl
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sigpl
 %{_datadir}/games/fortunes/sigpl.dat
+%{_datadir}/games/fortunes/sigpl.u8
 
 %files -n fortune-mod-pl-sport
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sport
 %{_datadir}/games/fortunes/sport.dat
+%{_datadir}/games/fortunes/sport.u8
 
 %files -n fortune-mod-pl-lcamtuf
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/lcamtuf
 %{_datadir}/games/fortunes/lcamtuf.dat
+%{_datadir}/games/fortunes/lcamtuf.u8
 
 %files -n fortune-mod-pl-dowcipy-feministyczne
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-feministyczne
 %{_datadir}/games/fortunes/dowcipy-feministyczne.dat
+%{_datadir}/games/fortunes/dowcipy-feministyczne.u8
 
 %files -n fortune-mod-pl-sigvirus
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sigvirus
 %{_datadir}/games/fortunes/sigvirus.dat
+%{_datadir}/games/fortunes/sigvirus.u8
 
 %files -n fortune-mod-pl-kernelcookies
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/kernelcookies
 %{_datadir}/games/fortunes/kernelcookies.dat
+%{_datadir}/games/fortunes/kernelcookies.u8
 
 %files -n fortune-mod-pl-jogger_pl
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/jogger_pl
 %{_datadir}/games/fortunes/jogger_pl.dat
+%{_datadir}/games/fortunes/jogger_pl.u8
 
 %files -n fortune-mod-pl-dowcipy
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy
 %{_datadir}/games/fortunes/dowcipy.dat
+%{_datadir}/games/fortunes/dowcipy.u8
 
 %files -n fortune-mod-pl-polish_manpages
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/polish_manpages
 %{_datadir}/games/fortunes/polish_manpages.dat
+%{_datadir}/games/fortunes/polish_manpages.u8
 
 %files -n fortune-mod-pl-testnaosobowosc
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/testnaosobowosc
 %{_datadir}/games/fortunes/testnaosobowosc.dat
+%{_datadir}/games/fortunes/testnaosobowosc.u8
 
 %files -n fortune-mod-pl-rywingate
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/rywingate
 %{_datadir}/games/fortunes/rywingate.dat
+%{_datadir}/games/fortunes/rywingate.u8
 
 %files -n fortune-mod-pl-linuxfr
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/linuxfr
 %{_datadir}/games/fortunes/linuxfr.dat
+%{_datadir}/games/fortunes/linuxfr.u8
 
 %files -n fortune-mod-pl-linuxpl
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/linuxpl
 %{_datadir}/games/fortunes/linuxpl.dat
+%{_datadir}/games/fortunes/linuxpl.u8
 
 %files -n fortune-mod-pl-pingwinaria
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pingwinaria
 %{_datadir}/games/fortunes/pingwinaria.dat
+%{_datadir}/games/fortunes/pingwinaria.u8
 
 %files -n fortune-mod-pl-dowcipy-szowinistyczne
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-szowinistyczne
 %{_datadir}/games/fortunes/dowcipy-szowinistyczne.dat
+%{_datadir}/games/fortunes/dowcipy-szowinistyczne.u8
 
 %files -n fortune-mod-pl-slogany
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/slogany
 %{_datadir}/games/fortunes/slogany.dat
+%{_datadir}/games/fortunes/slogany.u8
 
 %files -n fortune-mod-pl-slownik
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/slownik
 %{_datadir}/games/fortunes/slownik.dat
+%{_datadir}/games/fortunes/slownik.u8
 
 %files -n fortune-mod-pl-x-avalon
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/x-avalon
 %{_datadir}/games/fortunes/x-avalon.dat
+%{_datadir}/games/fortunes/x-avalon.u8
 
 %files -n fortune-mod-pl-icpusers
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/icpusers
 %{_datadir}/games/fortunes/icpusers.dat
+%{_datadir}/games/fortunes/icpusers.u8
 
 %files -n fortune-mod-pl-rzewski
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/rzewski
 %{_datadir}/games/fortunes/rzewski.dat
+%{_datadir}/games/fortunes/rzewski.u8
 
 %files -n fortune-mod-pl-bocian_gate
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/bocian_gate
 %{_datadir}/games/fortunes/bocian_gate.dat
+%{_datadir}/games/fortunes/bocian_gate.u8
 
 %files -n fortune-mod-pl-gra_polslowek
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/gra_polslowek
 %{_datadir}/games/fortunes/gra_polslowek.dat
+%{_datadir}/games/fortunes/gra_polslowek.u8
 
 %files -n fortune-mod-pl-10-przykazan-dewelopera-PLD
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/10-przykazan-dewelopera-PLD
 %{_datadir}/games/fortunes/10-przykazan-dewelopera-PLD.dat
+%{_datadir}/games/fortunes/10-przykazan-dewelopera-PLD.u8
 
 %files -n fortune-mod-pl-sapkowski
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/sapkowski
 %{_datadir}/games/fortunes/sapkowski.dat
+%{_datadir}/games/fortunes/sapkowski.u8
 
 %files -n fortune-mod-pl-znaki_zodiaku
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/znaki_zodiaku
 %{_datadir}/games/fortunes/znaki_zodiaku.dat
+%{_datadir}/games/fortunes/znaki_zodiaku.u8
 
 %files -n fortune-mod-pl-koscielne
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/koscielne
 %{_datadir}/games/fortunes/koscielne.dat
+%{_datadir}/games/fortunes/koscielne.u8
 
 %files -n fortune-mod-pl-pLug-slc2001
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pLug-slc2001
 %{_datadir}/games/fortunes/pLug-slc2001.dat
+%{_datadir}/games/fortunes/pLug-slc2001.u8
 
 %files -n fortune-mod-pl-dzieci
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dzieci
 %{_datadir}/games/fortunes/dzieci.dat
+%{_datadir}/games/fortunes/dzieci.u8
 
 %files -n fortune-mod-pl-pldhelp-offensive
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pldhelp-offensive
 %{_datadir}/games/fortunes/pldhelp-offensive.dat
+%{_datadir}/games/fortunes/pldhelp-offensive.u8
 
 %files -n fortune-mod-pl-gentoo
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/gentoo
 %{_datadir}/games/fortunes/gentoo.dat
+%{_datadir}/games/fortunes/gentoo.u8
 
 %files -n fortune-mod-pl-newyear
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/newyear
 %{_datadir}/games/fortunes/newyear.dat
+%{_datadir}/games/fortunes/newyear.u8
 
 %files -n fortune-mod-pl-imiona
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/imiona
 %{_datadir}/games/fortunes/imiona.dat
+%{_datadir}/games/fortunes/imiona.u8
 
 %files -n fortune-mod-pl-matrymonialne
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/matrymonialne
 %{_datadir}/games/fortunes/matrymonialne.dat
+%{_datadir}/games/fortunes/matrymonialne.u8
 
 %files -n fortune-mod-pl-7thguard
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/7thguard
 %{_datadir}/games/fortunes/7thguard.dat
+%{_datadir}/games/fortunes/7thguard.u8
 
 %files -n fortune-mod-pl-matura
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/matura
 %{_datadir}/games/fortunes/matura.dat
+%{_datadir}/games/fortunes/matura.u8
 
 %files -n fortune-mod-pl-konikbujany
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/konikbujany
 %{_datadir}/games/fortunes/konikbujany.dat
+%{_datadir}/games/fortunes/konikbujany.u8
 
 %files -n fortune-mod-pl-dowcipy-naukowcy
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-naukowcy
 %{_datadir}/games/fortunes/dowcipy-naukowcy.dat
+%{_datadir}/games/fortunes/dowcipy-naukowcy.u8
 
 %files -n fortune-mod-pl-milosc
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/milosc
 %{_datadir}/games/fortunes/milosc.dat
+%{_datadir}/games/fortunes/milosc.u8
 
 %files -n fortune-mod-pl-mmazur
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/mmazur
 %{_datadir}/games/fortunes/mmazur.dat
+%{_datadir}/games/fortunes/mmazur.u8
 
 %files -n fortune-mod-pl-radio_maryja
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/radio_maryja
 %{_datadir}/games/fortunes/radio_maryja.dat
+%{_datadir}/games/fortunes/radio_maryja.u8
 
 %files -n fortune-mod-pl-seneka
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/seneka
 %{_datadir}/games/fortunes/seneka.dat
+%{_datadir}/games/fortunes/seneka.u8
 
 %files -n fortune-mod-pl-spolem
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/spolem
 %{_datadir}/games/fortunes/spolem.dat
+%{_datadir}/games/fortunes/spolem.u8
 
 %files -n fortune-mod-pl-stachura
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/stachura
 %{_datadir}/games/fortunes/stachura.dat
+%{_datadir}/games/fortunes/stachura.u8
 
 %files -n fortune-mod-pl-pld-fork
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pld-fork
 %{_datadir}/games/fortunes/pld-fork.dat
+%{_datadir}/games/fortunes/pld-fork.u8
 
 %files -n fortune-mod-pl-baseciq
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/baseciq
 %{_datadir}/games/fortunes/baseciq.dat
+%{_datadir}/games/fortunes/baseciq.u8
 
 %files -n fortune-mod-pl-dowcipy-lepper
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/dowcipy-lepper
 %{_datadir}/games/fortunes/dowcipy-lepper.dat
+%{_datadir}/games/fortunes/dowcipy-lepper.u8
 
 %files -n fortune-mod-pl-komputery
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/komputery
 %{_datadir}/games/fortunes/komputery.dat
+%{_datadir}/games/fortunes/komputery.u8
 
 %files -n fortune-mod-pl-wieza-pilot
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/wieza-pilot
 %{_datadir}/games/fortunes/wieza-pilot.dat
+%{_datadir}/games/fortunes/wieza-pilot.u8
 
 %files -n fortune-mod-pl-argante
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/argante
 %{_datadir}/games/fortunes/argante.dat
+%{_datadir}/games/fortunes/argante.u8
 
 %files -n fortune-mod-pl-advocacy
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/advocacy
 %{_datadir}/games/fortunes/advocacy.dat
+%{_datadir}/games/fortunes/advocacy.u8
 
 %files -n fortune-mod-pl-stirlitz
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/stirlitz
 %{_datadir}/games/fortunes/stirlitz.dat
+%{_datadir}/games/fortunes/stirlitz.u8
 
 %files -n fortune-mod-pl-ospl-ad
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/ospl-ad
 %{_datadir}/games/fortunes/ospl-ad.dat
+%{_datadir}/games/fortunes/ospl-ad.u8
 
 %files -n fortune-mod-pl-pld-offensive
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pld-offensive
 %{_datadir}/games/fortunes/pld-offensive.dat
+%{_datadir}/games/fortunes/pld-offensive.u8
 
 %files -n fortune-mod-pl-pratchett
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pratchett
 %{_datadir}/games/fortunes/pratchett.dat
+%{_datadir}/games/fortunes/pratchett.u8
 
 %files -n fortune-mod-pl-pldhelp
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/pldhelp
 %{_datadir}/games/fortunes/pldhelp.dat
+%{_datadir}/games/fortunes/pldhelp.u8
 
 %files -n fortune-mod-pl-microsoft
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/microsoft
 %{_datadir}/games/fortunes/microsoft.dat
+%{_datadir}/games/fortunes/microsoft.u8
 
 %files -n fortune-mod-pl-chuck-norris
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/chuck-norris
 %{_datadir}/games/fortunes/chuck-norris.dat
+%{_datadir}/games/fortunes/chuck-norris.u8
 
 %files -n fortune-mod-pl-teleturnieje
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/teleturnieje
 %{_datadir}/games/fortunes/teleturnieje.dat
+%{_datadir}/games/fortunes/teleturnieje.u8
 
 %files -n fortune-mod-pl-ipv6.pl
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/ipv6.pl
 %{_datadir}/games/fortunes/ipv6.pl.dat
+%{_datadir}/games/fortunes/ipv6.pl.u8
 
 %files -n fortune-mod-pl-wierszyki
 %defattr(644,root,root,755)
 %{_datadir}/games/fortunes/wierszyki
 %{_datadir}/games/fortunes/wierszyki.dat
+%{_datadir}/games/fortunes/wierszyki.u8
